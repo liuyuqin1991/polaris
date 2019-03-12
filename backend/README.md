@@ -1,6 +1,6 @@
 ## 后端技术栈
 
-! [知识路线图](https://github.com/zz155666/polaris/raw/master/backend/javaweblearning.png)
+![知识路线图](https://github.com/zz155666/polaris/raw/master/backend/javaweblearning.png)
 
 ## 整理的知识列表
 
