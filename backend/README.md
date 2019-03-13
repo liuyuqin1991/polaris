@@ -11,9 +11,11 @@ Java基础 |
 web基础 |
 Web主流框架 |
 Web框架进阶 |
-缓存相关 | redis |基础知识
-||  |[常用方法](https://github.com/liuyuqin1991/polaris/blob/master/backend/cache/redis常用方法.md)
-其它 |
+缓存相关 | Redis |[Redis](https://github.com/liuyuqin1991/polaris/blob/master/backend/cache/Redis.md)
+||  |[Redis常用方法](https://github.com/liuyuqin1991/polaris/blob/master/backend/cache/Redis常用方法.md)
+||  |[Redis持久化](https://github.com/liuyuqin1991/polaris/blob/master/backend/cache/Redis持久化.md)
+其它 | 消息队列 |[消息队列](https://github.com/liuyuqin1991/polaris/blob/master/backend/messagequeue/message-queue.md)
+||  |[Rabbitmq](https://github.com/liuyuqin1991/polaris/blob/master/backend/messagequeue/rabbitmq.md)
 开发工具|
 
 ## 一些文章链接

@@ -1,6 +1,7 @@
 <!-- MarkdownTOC -->
 
 - [redis 简介](#redis-简介)
+- [redis 为什么这么快](#redis-为什么这么快)
 - [为什么要用 redis /为什么要用缓存](#为什么要用-redis-为什么要用缓存)
 - [为什么要用 redis 而不用 map/guava 做缓存?](#为什么要用-redis-而不用-mapguava-做缓存)
 - [redis 和 memcached 的区别](#redis-和-memcached-的区别)
@@ -24,7 +25,14 @@
 
 ### redis 简介
 
-简单来说 redis 就是一个数据库，不过与传统数据库不同的是 redis 的数据是存在内存中的，所以存写速度非常快，因此 redis 被广泛应用于缓存方向。另外，redis 也经常用来做分布式锁。redis 提供了多种数据类型来支持不同的业务场景。除此之外，redis 支持事务 、持久化、LUA脚本、LRU驱动事件、多种集群方案。 
+简单来说 redis 就是一个数据库，不过与传统数据库不同的是 redis 的数据是存在内存中的，所以存写速度非常快，官方提供的数据是可以达到100000+的QPS（每秒内查询次数）。因此 redis 被广泛应用于缓存方向。另外，redis 也经常用来做分布式锁。redis 提供了多种数据类型来支持不同的业务场景。除此之外，redis 支持事务 、持久化、LUA脚本、LRU驱动事件、多种集群方案。 
+
+### redis 为什么这么快
+1. 完全基于内存，绝大部分请求是纯粹的内存操作，非常快速。数据存在内存中，类似于HashMap，HashMap的优势就是查找和操作的时间复杂度都是O(1)；
+2. 数据结构简单，对数据操作也简单，Redis中的数据结构是专门进行设计的；
+3. 采用单线程，避免了不必要的上下文切换和竞争条件，也不存在多进程或者多线程导致的切换而消耗 CPU，不用去考虑各种锁的问题，不存在加锁释放锁操作，没有因为可能出现死锁而导致的性能消耗；
+4. 使用多路I/O复用模型，非阻塞IO；
+5. 使用底层模型不同，它们之间底层实现方式以及与客户端之间通信的应用协议不一样，Redis直接自己构建了VM 机制 ，因为一般的系统调用系统函数的话，会浪费一定的时间去移动和请求； 
 
 ### 为什么要用 redis /为什么要用缓存
 
@@ -228,9 +236,9 @@ AOF重写是一个有歧义的名字，该功能是通过读取数据库中的�
 在执行 BGREWRITEAOF 命令时，Redis 服务器会维护一个 AOF 重写缓冲区，该缓冲区会在子进程创建新AOF文件期间，记录服务器执行的所有写命令。当子进程完成创建新AOF文件的工作之后，服务器会将重写缓冲区中的所有内容追加到新AOF文件的末尾，使得新旧两个AOF文件所保存的数据库状态一致。最后，服务器用新的AOF文件替换旧的AOF文件，以此来完成AOF文件重写操作
 
 
-**更多内容可以查看我的这篇文章：**
+**更多内容可以查看这篇文章：**
 
-- [https://github.com/Snailclimb/JavaGuide/blob/master/数据存储/Redis/Redis持久化.md](https://github.com/Snailclimb/JavaGuide/blob/master/数据存储/Redis/Redis持久化.md)
+- [https://github.com/liuyuqin1991/polaris/blob/master/backend/cache/Redis持久化.md](https://github.com/liuyuqin1991/polaris/blob/master/backend/cache/Redis持久化.md)
 
 
 ### redis 事务
