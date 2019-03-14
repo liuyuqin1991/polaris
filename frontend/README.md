@@ -1,13 +1,12 @@
 ![frontend-load](https://github.com/liuyuqin1991/polaris/blob/master/images/frontend/frontend-road.png)
 
-<div style="text-align:center;font-size:30px;">资源分享</div>
+# 资源分享
+>*资源太多，请使用 <ctrl+F> 搜索关键字*
 
->*资源太多，请使用ctrl+F搜索关键字*
-
-# **主题**
+## **主题**
 [前端热门技术主题](https://github.com/liuyuqin1991/polaris/blob/master/frontend/links/topic.md)
 
-# **css**
+## **css**
 
 **liuyuqin1991<贡献者>博客资源**
 * [svg图片 填充颜色——2019年03月11日](https://blog.csdn.net/liuyuqin1991/article/details/88408249)
@@ -43,7 +42,7 @@
 * [有限状态机在 CSS 动画中的应用](https://github.com/dawn-plex/translate/blob/master/articles/css-animations-with-finite-state-machines.md)
 * [CSS 继承深度解析](https://zhuanlan.zhihu.com/p/24574040)
 
-# **react**
+## **react**
 **liuyuqin1991<贡献者>博客资源**
 * [react fireworks 烟花特效——2018年06月22日](https://blog.csdn.net/liuyuqin1991/article/details/80777467)
 * [react 自定义的数字样式滚动效果——2018年06月21日](https://blog.csdn.net/liuyuqin1991/article/details/80758324)
@@ -100,7 +99,7 @@
 * [Creat React App 2.0 发布](https://mp.weixin.qq.com/s/sCPmYHMH2Dc3SZmQhlJCig)
 
 
-# **webpack**
+## **webpack**
 
 **站内资源**
 
@@ -127,7 +126,7 @@
 * [Webpack 打包含动态加载的类库](http://scarletsky.github.io/2019/02/19/webpack-bundling-libraries-with-dynamic-imports)
 * [Webapck4+Babel7优化70%速度](https://mp.weixin.qq.com/s/si4yq-M_JS0DqedAhTlKng)
 
-# **gulp**
+## **gulp**
 
 **liuyuqin1991<贡献者>博客资源**
 * [gulp插件集合（包含50多种gulp插件）——2017年11月22日](https://blog.csdn.net/liuyuqin1991/article/details/78606125)
@@ -138,19 +137,19 @@
 * [gulp插件-gulp-usemin——2017年08月25日](https://blog.csdn.net/liuyuqin1991/article/details/77574932)
 
 
-# **ui**
+## **ui**
 
 **站内资源**
 
 * [常用ui库（包含react，vue和通用）](https://github.com/liuyuqin1991/polaris/blob/master/frontend/links/ui.md)
 
-# **插件库**
+## **插件库**
 
 **站内资源**
 
 * [常用第三方插件库](https://github.com/liuyuqin1991/polaris/blob/master/frontend/links/component-plugin.md)
 
-# **vue**
+## **vue**
 
 **liuyuqin1991<贡献者>博客资源**
 
@@ -175,7 +174,7 @@
 * [megalo -- 网易考拉小程序解决方案](https://mp.weixin.qq.com/s/n5nUGdOO-JxkPsM7G7UCAQ)
 
 
-# **总结**
+## **总结**
 
 
 
@@ -191,7 +190,7 @@
 * [npm 2017 JavaScript 框架报告之后端框架](http://mp.weixin.qq.com/s/w5vccN2CnVO82PSOp75-KA)
 * [npm 2017 JavaScript 框架报告之前端框架](https://mp.weixin.qq.com/s/AD_7nOCBBZxmfTKlF0fN2g)
 
-# **github热门项目**
+## **github热门项目**
 
 * [【本周项目】7.14-7.20](https://mp.weixin.qq.com/s/tZzPbTgYaLEGZ7svUfPwxg)
 * [【本周项目】7.21-7.27](https://mp.weixin.qq.com/s/Mu8e1YeSI2vNSMcEelzyyg)
@@ -227,7 +226,7 @@
 * [【本周项目】2.23-3.1](https://mp.weixin.qq.com/s/C0thWSPXD4fG_ZTj_90VVQ)
 * [【本周项目】3.2-3.8](https://mp.weixin.qq.com/s/k-n7ZRTP5MIeE5GKDrEj4Q)
 
-# **其他前端资源**
+## **其他前端资源**
 
 
 
