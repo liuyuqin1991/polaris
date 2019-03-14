@@ -20,9 +20,7 @@ Github:
 
 **2.Npm**
 
-NPM（node package
-manager）是 [Node.js](http://lib.csdn.net/base/nodejs) 的包管理和分发工具。它类似于[PHP](http://lib.csdn.net/base/php)的Composer，Ruby的gem，[Python](http://lib.csdn.net/base/python)的pip，[Java](http://lib.csdn.net/base/java)的Maven……它可以让 [JavaScript](http://lib.csdn.net/base/javascript) 开发者能够更加轻松的共享代码和共用代码片段，并且通过npm管理你分享的代码也很方便快捷和简单。截至目前
-最新的稳定版 npm 是 3.3.12。
+NPM（node package manager）是Node.js的包管理和分发工具。它类似于PHP的Composer，Ruby的gem，Python的pip，Java的Maven……它可以让JavaScript开发者能够更加轻松的共享代码和共用代码片段，并且通过npm管理你分享的代码也很方便快捷和简单。截至目前最新的稳定版 npm 是 3.3.12。
 
 Github:
 
@@ -30,7 +28,7 @@ Github:
 
 官方网站：
 
-[https://docs.npmjs.com](https://docs.npmjs.com/)
+<https://docs.npmjs.com/>
 
 官方教程：
 
@@ -76,7 +74,7 @@ Bower是一个客户端技术的软件包管理器，它可用于搜索、安装
 
 Bower与Npm：
 
-简单的说，npm是进行后端开发中，使用的模块安装工具，而bower，是前端的模块安装工具。比如，在安装express，[socket.io](http://socket.io)时，当然使用的是npm，那么比如bootstrap，jquery等前端框架，需要使用bower，npm
+简单的说，npm是进行后端开发中，使用的模块安装工具，而bower，是前端的模块安装工具。比如，在安装express，socket.io时，当然使用的是npm，那么比如bootstrap，jquery等前端框架，需要使用bower，npm
 是伴随 Node.js 出现的一个包管理器，最开始只能支持 Node.js 的模块管理，但是后来，
 npm 官网经过一次改版，打出的口号是，javascript
 的包管理器，所以，其已经不在局限于是Node.js 的模块管理了，已经通用到了所有 js
@@ -195,12 +193,11 @@ Github:
 
 <http://babeljs.cn/>
 
-**其他：**
+其他：
 
-| **文章**                              | **链接**                                                                                                        |
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 【第1464期】babel7使用手册            | <https://mp.weixin.qq.com/s/AURDiWwspdfRExopNf4YLQ>                                                             |
-| 【第1378期】 一口(很长的)气了解 Babel | <https://github.com/easonyq/easonyq.github.io/blob/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/others/babel.md> |
+[【第1464期】babel7使用手册](https://mp.weixin.qq.com/s/AURDiWwspdfRExopNf4YLQ) 
+
+[【第1378期】 一口(很长的)气了解 Babel](https://github.com/easonyq/easonyq.github.io/blob/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/others/babel.md)
 
 **10.Q.js**
 
@@ -218,9 +215,9 @@ Github:
 
 <https://github.com/kriskowal/q>
 
-[11.Express.js](https://github.com/kriskowal/q)
+**11.Express.js**
 
-基于 [Node.js](http://nodejs.org/) 平台，快速、开放、极简的 web 后端开发框架。
+基于Node.js平台，快速、开放、极简的 web 后端开发框架。
 
 Github:
 
