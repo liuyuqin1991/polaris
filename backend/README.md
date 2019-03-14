@@ -19,5 +19,10 @@ Web框架进阶 |
 开发工具|
 
 ## 一些文章链接
-[十大经典排序算法（动图演示）](https://www.cnblogs.com/onepixel/p/7674659.html)
-[单例模式的八种写法比较](https://www.cnblogs.com/zhaoyan001/p/6365064.html)
+- [十大经典排序算法（动图演示）](https://www.cnblogs.com/onepixel/p/7674659.html)
+- [单例模式的八种写法比较](https://www.cnblogs.com/zhaoyan001/p/6365064.html)
+## redis相关
+- [Windows下安装Redis服务](https://www.cnblogs.com/jaign/articles/7920588.html)
+## 消息队列相关
+- [windows下 安装 rabbitMQ 及操作常用命令](http://www.cnblogs.com/ericli-ericli/p/5902270.html)
+- [RabbitMQ基础教程之基本使用篇](https://www.jianshu.com/p/7032cbe79951)
