@@ -7,7 +7,7 @@
 
 **站内资源**
 
-[前端热门技术主题](https://github.com/liuyuqin1991/polaris/blob/master/frontend/links/topic.md)
+* [前端热门技术主题](https://github.com/liuyuqin1991/polaris/blob/master/frontend/links/topic.md)
 
 ## **css**
 
