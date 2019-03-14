@@ -25,3 +25,4 @@ Web框架进阶 |
 [Windows下安装Redis服务](https://www.cnblogs.com/jaign/articles/7920588.html)
 ## 消息队列相关
 [windows下 安装 rabbitMQ 及操作常用命令](http://www.cnblogs.com/ericli-ericli/p/5902270.html)
+[RabbitMQ基础教程之基本使用篇](https://www.jianshu.com/p/7032cbe79951)
