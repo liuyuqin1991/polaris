@@ -8,10 +8,12 @@
 
 <table align="center">
     <thread>
-        <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/backend">后端</a></th>
-        <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/frontend">前端</a></th>
-        <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/interview">面试</a></th>
-        <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/others">其他</a></th>
+        <th><a href="/backend/README.md">后端</a></th>
+        <th><a href="/frontend/README.md">前端</a></th>
+        <th><a href="/android/README.md">Android</a></th>
+        <th><a href="/ios/README.md">IOS</a></th>
+        <th><a href="/interview/README.md">面试</a></th>
+        <th><a href="/others/README.md">其他</a></th>
     </thread>
 </table>
 
