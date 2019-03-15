@@ -437,5 +437,6 @@
 * [如何在浏览器不崩溃的情况下过滤 200 万行数据？](https://www.toutiao.com/i6664800122947240455)
 * [JavaScript 常见设计模式](https://juejin.im/post/5c80f57f51882532cd57b64d)
 * [如何自动搞定全站图片的alt属性？](https://mp.weixin.qq.com/s/OXxaoBxGyIFgcV7cb-9cTw)
-
+* [页面可视化搭建工具技术要点](https://github.com/CntChen/cntchen.github.io/issues/17)
+* [Vuex、Flux、Redux、Redux-saga、Dva、MobX](https://zhuanlan.zhihu.com/p/53599723)
 
