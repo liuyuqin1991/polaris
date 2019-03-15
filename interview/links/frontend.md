@@ -10,3 +10,7 @@
 | 2018前端面试总结js部分【中】                         | [https://juejin.im/post/5b2f4eb9e51d4558cc35c289](https://juejin.im/post/5b2f4eb9e51d4558cc35c289?utm_medium=fe&utm_source=weixinqun) |
 | 2018年6月前端面试经历(中)                            | <https://juejin.im/post/5b3b70ea6fb9a04fe91a5039?utm_medium=fe&utm_source=weixinqun>                                                  |
 | 近百高频知识点，十万余字，地表最强前端面试图谱了解下 | <https://yuchengkai.cn/docs/zh/frontend/>                                                                                             |
+
+
+
+* [如何找到一份好的前端开发工作](https://mp.weixin.qq.com/s/Cs3BZEBZEV79hP7qFujOWg)
