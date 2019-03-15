@@ -11,7 +11,7 @@
         <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/backend">后端</a></th>
         <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/frontend">前端</a></th>
         <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/interview">面试</a></th>
-        <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/others">后端</a></th>
+        <th><a href="https://github.com/liuyuqin1991/polaris/tree/master/others">其他</a></th>
     </thread>
 </table>
 
