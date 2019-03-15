@@ -14,7 +14,7 @@
     - [4.2 AMQP](#42-amqp)
     - [4.3 JMS vs AMQP](#43-jms-vs-amqp)
   - [五 常见的消息队列对比](#五-常见的消息队列对比)
-
+- [相关文章（一些好玩的文章索引）](#相关文章：)
 <!-- /MarkdownTOC -->
 
 
@@ -150,3 +150,7 @@
 
 
 参考：《Java工程师面试突击第1季-中华石杉老师》
+
+# 相关文章
+- [windows下 安装 rabbitMQ 及操作常用命令](http://www.cnblogs.com/ericli-ericli/p/5902270.html)
+- [RabbitMQ基础教程之基本使用篇](https://www.jianshu.com/p/7032cbe79951)

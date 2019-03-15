@@ -19,6 +19,7 @@
 - [如何解决 Redis 的并发竞争 Key 问题](#如何解决-redis-的并发竞争-key-问题)
 - [如何保证缓存与数据库双写时的数据一致性？](#如何保证缓存与数据库双写时的数据一致性？)
 - [参考：](#参考：)
+- [相关文章（一些好玩的文章索引）](#相关文章：)
 
 <!-- /MarkdownTOC -->
 
@@ -296,13 +297,11 @@ Redis 通过 MULTI、EXEC、WATCH 等命令来实现事务(transaction)功能。
 
 串行化之后，就会导致系统的吞吐量会大幅度的降低，用比正常情况下多几倍的机器去支撑线上的一个请求。
 
-**参考：**
-
-- Java工程师面试突击第1季（可能是史上最好的Java面试突击课程）-中华石杉老师。视频地址见下面！
-  - 链接： https://pan.baidu.com/s/18pp6g1xKVGCfUATf_nMrOA 
-  - 密码：5i58
-
 ### 参考：
 
 - redis设计与实现(第二版)
+
+# 相关文章
+- [Windows下安装Redis服务](https://www.cnblogs.com/jaign/articles/7920588.html)
+- [这个Jedis的坑你肯定没踩过！记一次深坑排查过程(有深入的源码分析)](http://beautyboss.me/2019/03/10/%E8%BF%99%E4%B8%AAJedis%E7%9A%84%E5%9D%91%E4%BD%A0%E8%82%AF%E5%AE%9A%E6%B2%A1%E8%B8%A9%E8%BF%87%EF%BC%81%E8%AE%B0%E4%B8%80%E6%AC%A1%E6%B7%B1%E5%9D%91%E6%8E%92%E6%9F%A5%E8%BF%87%E7%A8%8B/)
 
