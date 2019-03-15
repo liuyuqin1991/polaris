@@ -1,6 +1,7 @@
 ![frontend-load](https://github.com/liuyuqin1991/polaris/blob/master/images/frontend/frontend-road.png)
 
-# 资源分享
+# 前端资源汇总分享
+
 >*资源太多，请使用 <ctrl+F> 搜索关键字*
 
 ## **主题**
