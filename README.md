@@ -11,7 +11,7 @@
         <th><a href="/backend/README.md">后端</a></th>
         <th><a href="/frontend/README.md">前端</a></th>
         <th><a href="/android/README.md">Android</a></th>
-        <th><a href="/ios/README.md">IOS</a></th>
+        <th><a href="/ios/README.md">iOS</a></th>
         <th><a href="/interview/README.md">面试</a></th>
         <th><a href="/others/README.md">其他</a></th>
     </thread>
