@@ -439,4 +439,7 @@
 * [如何自动搞定全站图片的alt属性？](https://mp.weixin.qq.com/s/OXxaoBxGyIFgcV7cb-9cTw)
 * [页面可视化搭建工具技术要点](https://github.com/CntChen/cntchen.github.io/issues/17)
 * [Vuex、Flux、Redux、Redux-saga、Dva、MobX](https://zhuanlan.zhihu.com/p/53599723)
+* [精读《Serverless 给前端带来了什么》](https://zhuanlan.zhihu.com/p/58877583)
+* [Web渲染概述](https://mp.weixin.qq.com/s/yFEjjLxIypjX_CfvfXShgw)
+* [没有JS的前端：体积更小、速度更快！](https://mp.weixin.qq.com/s/5zx3ap6GtSEHx4bVRNuVnQ)
 
