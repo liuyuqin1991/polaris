@@ -6,9 +6,10 @@
 
 大类 | 小类 | 知识链接
 ---|--- |---
-Java基础 | 基础语法 |[算法](./basic/Algorithm.md)
+Java基础 | [基础相关]((./basic)) |[算法](./basic/Algorithm.md)
 |||[设计模式](./basic/DesignPattern.md)
-数据库 | 
+|||[I/O](./basic/IO.md)
+数据库 | |[数据库](./database/DataBase.md)
 web基础 |
 Web主流框架 |
 Web框架进阶 |
