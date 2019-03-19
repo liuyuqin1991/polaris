@@ -258,7 +258,7 @@ public class FanoutConsumer {
         String[] routingKey = new String[]{"aaa", "bbb"};
         String[] queueNames = new String[]{"qa", "qb"};
 
-
+        //实际输出结果 qa和qb都能全部输出
         for (int i = 0; i < 2; i++) {
             consumer.msgConsumer(queueNames[i], routingKey[i]);
         }
@@ -326,7 +326,7 @@ public class DirectConsumer {
         String[] routingKey = new String[]{"aaa", "bbb"};
         String[] queueNames = new String[]{"qa", "qb"};
 
-
+        //实际输出结果 qa与qb各一半
         for (int i = 0; i < 2; i++) {
             consumer.msgConsumer(queueNames[i], routingKey[i]);
         }
@@ -400,7 +400,7 @@ public class TopicConsumer {
         String[] routingKey = new String[]{"aa1", "#"};
         String[] queueNames = new String[]{"qa", "qb"};
 
-
+        //输出结果为qa输出 1 3 5.。。 qb为全部
         for (int i = 0; i < 2; i++) {
             consumer.msgConsumer(queueNames[i], routingKey[i]);
         }
