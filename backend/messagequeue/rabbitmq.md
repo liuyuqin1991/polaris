@@ -99,7 +99,113 @@ Binding(绑定) 示意图：
 
 这样图1中的一些关于 RabbitMQ 的基本概念我们就介绍完毕了，下面再来介绍一下 **Exchange Types(交换器类型)** 。
 
-#### 1.2.5 Exchange Types(交换器类型)
+
+#### 1.2.5 Exchange Types(交换器类型)（20190319更新增加相关代码说明）
+
+#####创建连接工程
+
+```java
+public class RabbitUtil {
+    public static ConnectionFactory getConnectionFactory() {
+        //创建连接工程，下面给出的是默认的case
+        ConnectionFactory factory = new ConnectionFactory();
+        factory.setHost("127.0.0.1");
+        factory.setPort(5672);
+        factory.setUsername("zxy");
+        factory.setPassword("123");
+        factory.setVirtualHost("/");
+        return factory;
+    }
+}
+```
+#####生产者相关代码
+
+```java
+@Slf4j
+public class MsgProducer {
+	
+    //方法重载 用于非headers模式调用
+    public static void publishMsg(String exchange, BuiltinExchangeType exchangeType, String toutingKey, String message)
+            throws IOException, TimeoutException{
+        publishMsg(exchange,exchangeType,toutingKey,message,null);
+    }
+
+    public static void publishMsg(String exchange, BuiltinExchangeType exchangeType, String toutingKey, String message, AMQP.BasicProperties props)
+            throws IOException, TimeoutException {
+        ConnectionFactory factory = RabbitUtil.getConnectionFactory();
+
+        //创建连接
+        Connection connection = factory.newConnection();
+
+        //创建消息通道
+        Channel channel = connection.createChannel();
+
+        // 声明exchange中的消息为可持久化，不自动删除
+        channel.exchangeDeclare(exchange, exchangeType, true, false, null);
+        log.info("exchange is {},msg is {},toutingKey is {}",exchange,message,toutingKey);
+        // 发布消息
+        channel.basicPublish(exchange, toutingKey, props, message.getBytes());
+
+        channel.close();
+        connection.close();
+    }
+
+}
+```
+
+#####消费者相关代码
+```java
+@Slf4j
+public class MsgConsumer {
+
+    //方法重载，用于非headers模式的消费者调用
+    public static void consumerMsg(String exchange, String queue, String routingKey)
+            throws IOException, TimeoutException{
+        consumerMsg(exchange,queue,routingKey,null);
+    }
+    public static void consumerMsg(String exchange, String queue, String routingKey, Map<String,Object> headers)
+            throws IOException, TimeoutException {
+        ConnectionFactory factory = RabbitUtil.getConnectionFactory();
+        //创建连接
+        Connection connection = factory.newConnection();
+
+        //创建消息信道
+        final Channel channel = connection.createChannel();
+
+        //消息队列
+        channel.queueDeclare(queue, true, false, false, null);
+        //绑定队列到交换机
+        channel.queueBind(queue, exchange, routingKey,headers);
+        log.info("{} Waiting for {} message.routingKey is {} ",exchange,queue,routingKey);
+
+        Consumer consumer = new DefaultConsumer(channel) {
+            @Override
+            public void handleDelivery(String consumerTag, Envelope envelope, AMQP.BasicProperties properties,
+                                       byte[] body) throws IOException {
+                String message = new String(body, "UTF-8");
+
+                try {
+                    ///模仿两个队列处理时间不同的情况
+                    if(queue=="qa"){
+                        Thread.sleep(1000);
+                    }
+                    log.info(" {} Received {}",queue, message);
+                }catch (Exception e){
+                    log.error("ee",e);
+                }
+                finally {
+                    log.info(" {} Done",queue);
+                    channel.basicAck(envelope.getDeliveryTag(), false);
+                }
+            }
+        };
+
+        // 取消自动ack
+        channel.basicConsume(queue, false, consumer);
+    }
+
+}
+```
 
 RabbitMQ 常用的 Exchange Type 有 **fanout**、**direct**、**topic**、**headers** 这四种（AMQP规范里还提到两种 Exchange Type，分别为 system 与 自定义，这里不予以描述）。
 
@@ -107,6 +213,61 @@ RabbitMQ 常用的 Exchange Type 有 **fanout**、**direct**、**topic**、**hea
 
 fanout 类型的Exchange路由规则非常简单，它会把所有发送到该Exchange的消息路由到所有与它绑定的Queue中，不需要做任何判断操作，所以 fanout 类型是所有的交换机类型里面速度最快的。fanout 类型常用来广播消息。
 
+```java
+public class FanoutProducer {
+    private static final String EXCHANGE_NAME = "fanout.exchange";
+
+    public void publishMsg(String routingKey, String msg) {
+        try {
+            MsgProducer.publishMsg(EXCHANGE_NAME, BuiltinExchangeType.FANOUT, routingKey, msg);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        FanoutProducer directProducer = new FanoutProducer();
+        String[] routingKey = new String[]{"aaa", "bbb"};
+        String msg = "hello >>> ";
+
+
+        for (int i = 0; i < 30; i++) {
+            directProducer.publishMsg(routingKey[i % 2], msg + i);
+        }
+        System.out.println("----over-------");
+    }
+}
+
+public class FanoutConsumer {
+
+    private static final String exchangeName = "fanout.exchange";
+
+    public void msgConsumer(String queueName, String routingKey) {
+        try {
+            MsgConsumer.consumerMsg(exchangeName, queueName, routingKey);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public static void main(String[] args) throws InterruptedException {
+        FanoutConsumer consumer = new FanoutConsumer();
+        String[] routingKey = new String[]{"aaa", "bbb"};
+        String[] queueNames = new String[]{"qa", "qb"};
+
+        //实际输出结果 qa和qb都能全部输出
+        for (int i = 0; i < 2; i++) {
+            consumer.msgConsumer(queueNames[i], routingKey[i]);
+        }
+
+        Thread.sleep(1000 * 60 * 10);
+    }
+
+}
+```
 ##### ② direct
 
 direct 类型的Exchange路由规则也很简单，它会把消息路由到那些 Bindingkey 与 RoutingKey 完全匹配的 Queue 中。 
@@ -116,6 +277,65 @@ direct 类型的Exchange路由规则也很简单，它会把消息路由到那�
 以上图为例，如果发送消息的时候设置路由键为“warning”,那么消息会路由到 Queue1 和 Queue2。如果在发送消息的时候设置路由键为"Info”或者"debug”，消息只会路由到Queue2。如果以其他的路由键发送消息，则消息不会路由到这两个队列中。
 
 direct 类型常用在处理有优先级的任务，根据任务的优先级把消息发送到对应的队列，这样可以指派更多的资源去处理高优先级的队列。
+
+```java
+public class DirectProducer {
+
+    private static final String EXCHANGE_NAME = "direct.exchange";
+
+    public void publishMsg(String routingKey, String msg) {
+        try {
+            MsgProducer.publishMsg(EXCHANGE_NAME, BuiltinExchangeType.DIRECT, routingKey, msg);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public static void main(String[] args) {
+        DirectProducer directProducer = new DirectProducer();
+        String[] routingKey = new String[]{"aaa", "bbb"};
+        String msg = "hello >>> ";
+
+
+        for (int i = 0; i < 30; i++) {
+            directProducer.publishMsg(routingKey[i % 2], msg + i);
+        }
+        System.out.println("----over-------");
+    }
+
+}
+
+public class DirectConsumer {
+
+    private static final String exchangeName = "direct.exchange";
+
+    public void msgConsumer(String queueName, String routingKey) {
+        try {
+            MsgConsumer.consumerMsg(exchangeName, queueName, routingKey);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public static void main(String[] args) throws InterruptedException {
+        DirectConsumer consumer = new DirectConsumer();
+        String[] routingKey = new String[]{"aaa", "bbb"};
+        String[] queueNames = new String[]{"qa", "qb"};
+
+        //实际输出结果 qa与qb各一半
+        for (int i = 0; i < 2; i++) {
+            consumer.msgConsumer(queueNames[i], routingKey[i]);
+        }
+
+        Thread.sleep(1000 * 60 * 10);
+    }
+
+}
+```
 
 ##### ③ topic
 
@@ -135,9 +355,135 @@ direct 类型常用在处理有优先级的任务，根据任务的优先级把�
 - 路由键为 “java.rabbitmq.demo” 的消息只会路由到Queuel中；
 - 路由键为 “java.util.concurrent” 的消息将会被丢弃或者返回给生产者（需要设置 mandatory 参数），因为它没有匹配任何路由键。
 
+```java
+public class TopicProducer {
+    private static final String EXCHANGE_NAME = "topic.exchange";
+
+    public void publishMsg(String routingKey, String msg) {
+        try {
+            MsgProducer.publishMsg(EXCHANGE_NAME, BuiltinExchangeType.TOPIC, routingKey, msg);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        TopicProducer directProducer = new TopicProducer();
+        String[] routingKey = new String[]{"aa1", "aa2"};
+        String msg = "hello >>> ";
+
+
+        for (int i = 0; i < 30; i++) {
+            directProducer.publishMsg(routingKey[i % 2], msg + i);
+        }
+        System.out.println("----over-------");
+    }
+}
+
+public class TopicConsumer {
+
+    private static final String exchangeName = "topic.exchange";
+
+    public void msgConsumer(String queueName, String routingKey) {
+        try {
+            MsgConsumer.consumerMsg(exchangeName, queueName, routingKey);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public static void main(String[] args) throws InterruptedException {
+        TopicConsumer consumer = new TopicConsumer();
+        String[] routingKey = new String[]{"aa1", "#"};
+        String[] queueNames = new String[]{"qa", "qb"};
+
+        //输出结果为qa输出 1 3 5.。。 qb为全部
+        for (int i = 0; i < 2; i++) {
+            consumer.msgConsumer(queueNames[i], routingKey[i]);
+        }
+
+        Thread.sleep(1000 * 60 * 10);
+    }
+
+}
+```
+
 ##### ④ headers(不推荐)
 
 headers 类型的交换器不依赖于路由键的匹配规则来路由消息，而是根据发送的消息内容中的 headers 属性进行匹配。在绑定队列和交换器时制定一组键值对，当发送消息到交换器时，RabbitMQ会获取到该消息的 headers（也是一个键值对的形式)'对比其中的键值对是否完全匹配队列和交换器绑定时指定的键值对，如果完全匹配则消息会路由到该队列，否则不会路由到该队列。headers 类型的交换器性能会很差，而且也不实用，基本上不会看到它的存在。
+
+```java
+public class HeadersProducer {
+    private static final String EXCHANGE_NAME = "headers.exchange";
+
+    public void publishMsg(String routingKey, String msg) {
+        try {
+            Map<String, Object> headers=new HashMap<String, Object>();
+            headers.put("key", "123456");
+            headers.put("token", "654321");
+            //把键值对放在properties
+            AMQP.BasicProperties.Builder properties=new AMQP.BasicProperties.Builder();
+            properties.headers(headers);
+            properties.deliveryMode(2);//持久化
+            MsgProducer.publishMsg(EXCHANGE_NAME, BuiltinExchangeType.HEADERS, routingKey, msg,properties.build());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        HeadersProducer directProducer = new HeadersProducer();
+        String[] routingKey = new String[]{"aa1", "aa2"};
+        String msg = "hello >>> ";
+
+
+        for (int i = 0; i < 30; i++) {
+            directProducer.publishMsg(routingKey[i % 2], msg + i);
+        }
+        System.out.println("----over-------");
+    }
+}
+
+public class HeadersConsumer {
+
+    private static final String exchangeName = "headers.exchange";
+
+    public void msgConsumer(String queueName, String routingKey, Map<String,Object> headers) {
+        try {
+            MsgConsumer.consumerMsg(exchangeName, queueName, routingKey,headers);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (TimeoutException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public static void main(String[] args) throws InterruptedException {
+        HeadersConsumer consumer = new HeadersConsumer();
+        String[] routingKey = new String[]{"aa1", "#"};
+        String[] queueNames = new String[]{"qa", "qb"};
+
+        Map<String, Object> headers0=new HashMap<String, Object>();
+        headers0.put("x-match", "all");//all any(只要有一个键值对匹配即可)
+        headers0.put("key", "123456");
+       // headers0.put("token", "6543211");
+        Map<String, Object> headers1=new HashMap<String, Object>();
+        headers1.put("x-match", "any");//all any(只要有一个键值对匹配即可)
+        headers1.put("key", "123456");
+		
+	    //20190319这里存疑 测试中这两种模式下队列都可以接收到消息 按理说all是不能的
+
+        consumer.msgConsumer(queueNames[0], routingKey[0],headers0);
+        consumer.msgConsumer(queueNames[1], routingKey[1],headers1);
+        Thread.sleep(1000 * 60 * 10);
+    }
+
+}
+```
 
 ## 二 安装 RabbitMq
 
