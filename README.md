@@ -19,7 +19,8 @@
 
 ## Logo
 
-暂无
+![logo](https://github.com/liuyuqin1991/polaris/blob/master/images/star-logo.png)
+
 
 ## 致谢
 
