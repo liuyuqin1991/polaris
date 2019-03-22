@@ -236,7 +236,7 @@
 * [2019 前端性能优化年度总结 — 第五部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-5.md)
 * [2019 前端性能优化年度总结 — 第六部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-6.md)
 
-## **github热门项目**
+## **github热门项目（暂以时间分类）**
 
 * [技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
 * [【本周项目】7.14-7.20](https://mp.weixin.qq.com/s/tZzPbTgYaLEGZ7svUfPwxg)
