@@ -24,7 +24,7 @@
 
 ## 致谢
 
-感谢以下人员对本仓库做出的贡献（排名不分先后）。
+感谢以下小伙伴对项目所做出的贡献（按第一次PR时间排序）。
 
 <a href="https://github.com/liuyuqin1991">
 ​    <img src="https://avatars3.githubusercontent.com/u/15606468?s=460&v=4" width="50px">
