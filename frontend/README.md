@@ -67,6 +67,7 @@
 * [视频演示如何用纯 CSS 创作一只玉免](https://segmentfault.com/a/1190000015997373)
 
 ## **react**
+
 **liuyuqin1991<贡献者>博客资源**
 * [react fireworks 烟花特效——2018年06月22日](https://blog.csdn.net/liuyuqin1991/article/details/80777467)
 * [react 自定义的数字样式滚动效果——2018年06月21日](https://blog.csdn.net/liuyuqin1991/article/details/80758324)
@@ -182,7 +183,6 @@
 * [Vue.js 动态数据处理 简单版——2016年02月01日](https://blog.csdn.net/liuyuqin1991/article/details/50617188)
 * [Vue.js Ajax动态参数与列表显示——2016年01月28日](https://blog.csdn.net/liuyuqin1991/article/details/50601947)
 
-**站内资源**
 
 **站外资源**
 
@@ -238,6 +238,8 @@
 
 ## **github热门项目（暂以时间分类）**
 
+**站外资源**
+
 * [技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
 * [【本周项目】7.14-7.20](https://mp.weixin.qq.com/s/tZzPbTgYaLEGZ7svUfPwxg)
 * [【本周项目】7.21-7.27](https://mp.weixin.qq.com/s/Mu8e1YeSI2vNSMcEelzyyg)
@@ -274,9 +276,48 @@
 * [【本周项目】3.2-3.8](https://mp.weixin.qq.com/s/k-n7ZRTP5MIeE5GKDrEj4Q)
 * [【本周项目】3.9-3.15](https://mp.weixin.qq.com/s/RqgmqVS_L16L-PC0m9PQTQ)
 
+## **jquery**
+
+**liuyuqin1991<贡献者>博客资源**
+
+* [jquery中stopImmediatePropagation和stopPropagation——2018-05-04](https://blog.csdn.net/liuyuqin1991/article/details/80198626)
+* [jQuery基础（样式篇，DOM对象，选择器，属性样式）——2017-07-25](https://blog.csdn.net/liuyuqin1991/article/details/76083097)
+* [Jquery DataTables buttons扩展-导出excel——2017-07-11](https://blog.csdn.net/liuyuqin1991/article/details/74980616)
+* [jquery 自定义input输入监听事件——2016-10-21](https://blog.csdn.net/liuyuqin1991/article/details/52885337)
+* [jquery-ui 拖动列表 与 拖拽——2016-08-26](https://blog.csdn.net/liuyuqin1991/article/details/52326398)
+* [jquery图片热区jquery.image-maps——2016-08-03](https://blog.csdn.net/liuyuqin1991/article/details/52104994)
+
+
 
 ## **其他前端资源**
 
+**liuyuqin1991<贡献者>博客资源**
+
+* [echarts大制作：绚丽地图——2018-11-01](https://blog.csdn.net/liuyuqin1991/article/details/83617848)
+* [遮罩层上滚动，使下方的列表随之滚动——2018-07-27](https://blog.csdn.net/liuyuqin1991/article/details/81237521)
+* [handlebars 多状态判断输出，html转义or不转义——2018-04-11](https://blog.csdn.net/liuyuqin1991/article/details/79898601)
+* [bootstrap-datepicker 月份选择 完全指南——2018-03-22](https://blog.csdn.net/liuyuqin1991/article/details/79650340)
+* [crypto-js aes加解密——2018-02-22](https://blog.csdn.net/liuyuqin1991/article/details/79347633)
+* [video.js 视频直播前端展示——2018-02-11](https://blog.csdn.net/liuyuqin1991/article/details/79310080)
+* [echarts toolbox修改默认按钮功能——2018-01-18](https://blog.csdn.net/liuyuqin1991/article/details/79098520)
+* [echarts 图表通用工厂配置类——2017-12-11](https://blog.csdn.net/liuyuqin1991/article/details/78771863)
+* [百度地图 省市区县 信息展示——2017-09-21](https://blog.csdn.net/liuyuqin1991/article/details/78052262)
+* [腾讯地图 省市区县 信息展示——2017-09-11](https://blog.csdn.net/liuyuqin1991/article/details/77932710)
+* [Bootstrapvalidator 前端自定义验证和ajax远程访问后端验证——2017-09-05](https://blog.csdn.net/liuyuqin1991/article/details/77856053)
+* [Json数据导出Excel（IE10支持）——2017-08-16](https://blog.csdn.net/liuyuqin1991/article/details/77257081)
+* [datatable excelHtml5 自定义列格式（百分比保留两位小数）——2017-08-14](https://blog.csdn.net/liuyuqin1991/article/details/77163033)
+* [Handlebars.js if 功能扩展——2017-07-26](https://blog.csdn.net/liuyuqin1991/article/details/76146851)
+* [bootstrap中下拉菜单点击后不关闭的方法——2017-07-25](https://blog.csdn.net/liuyuqin1991/article/details/76090809)
+* [三种方法实现js跨域访问（转载）——2017-07-20](https://blog.csdn.net/liuyuqin1991/article/details/75534981)
+* [ES6循环数组新方法for-of（转）——2017-07-19](https://blog.csdn.net/liuyuqin1991/article/details/75419442)
+* [HTMl5内置存储sessionStorage和localStorage——2017-07-14](https://blog.csdn.net/liuyuqin1991/article/details/75107153)
+* [echarts大制作：绚丽地图——2018-11-01](https://blog.csdn.net/liuyuqin1991/article/details/83617848)
+* [echarts大制作：绚丽地图——2018-11-01](https://blog.csdn.net/liuyuqin1991/article/details/83617848)
+* [echarts大制作：绚丽地图——2018-11-01](https://blog.csdn.net/liuyuqin1991/article/details/83617848)
+* [echarts大制作：绚丽地图——2018-11-01](https://blog.csdn.net/liuyuqin1991/article/details/83617848)
+* [echarts大制作：绚丽地图——2018-11-01](https://blog.csdn.net/liuyuqin1991/article/details/83617848)
+
+**站内资源**
 
 **站外资源**
 

@@ -1,5 +1,6 @@
 # 其他汇总分享
 
+
 ## **git相关**
 
 * [Git使用入门](https://mp.weixin.qq.com/s/xoyQ4TzVKLQb2VjZJLUqFQ)
@@ -19,6 +20,11 @@
 * [作为一个前端，可以如何机智地弄坏一台电脑？](https://juejin.im/entry/5b57f52be51d45190d555468)
 
 ## **分散技术**
+
+**liuyuqin1991<贡献者>博客资源**
+* [Axure 按钮多事件触发——2017-08-28](https://blog.csdn.net/liuyuqin1991/article/details/77649361)
+
+**站外资源**
 
 * [超火的漫画线稿上色AI——style2paints 2.0出新版了](http://blog.csdn.net/yH0VLDe8VG8ep9VGe/article/details/78933351)
 * [掘金翻译计划，包含各种英文版精彩的技术文章的中文译文（热门）](https://github.com/xitu/gold-miner)

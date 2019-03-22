@@ -19,7 +19,8 @@ Web框架进阶 |
 ||  |[Redis持久化](./cache/Redis持久化.md)
 其它 | [消息队列](./messagequeue) |[消息队列](./messagequeue/message-queue.md)
 ||  |[Rabbitmq](./messagequeue/rabbitmq.md)
-开发工具|
+工具|脚本|[玩转exchange（查找邮件，修改邮件，发送邮件）](https://blog.csdn.net/liuyuqin1991/article/details/86583927)|
+|||[Shell 自动化编译打包](https://blog.csdn.net/liuyuqin1991/article/details/78855230)
 
 
 
