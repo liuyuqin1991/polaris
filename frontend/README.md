@@ -19,12 +19,13 @@
 7. Scss,Less
 8. ES6
 9. Babel
-10. Express
-11. Fontawesome
-12. Yarn
-13. ESLint
-14. Typescript
-15. PWA
+10. Promise
+11. Express
+12. Fontawesome
+13. Yarn
+14. ESLint
+15. Typescript
+16. PWA
 
 
 ## **css**
@@ -125,6 +126,8 @@
 ## **webpack**
 
 **站内资源**
+
+* [webpack中各种loader介绍](https://github.com/liuyuqin1991/polaris/blob/master/frontend/webpack/loader.md)
 
 **站外资源**
 * [webpack官方网站](https://webpack.js.org)

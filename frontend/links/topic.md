@@ -199,21 +199,17 @@ Github:
 
 [【第1378期】 一口(很长的)气了解 Babel](https://github.com/easonyq/easonyq.github.io/blob/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/others/babel.md)
 
-**10.Q.js**
+**10.promise**
 
 Promise是抽象异步处理对象以及对其进行各种操作的组件。JavaScript的异步执行都是以回调函数来执行的。Promise可以简化回调并提供链式异步调用。
-
-Github:
-
-<https://github.com/kriskowal/q>
 
 教程：
 
 <http://liubin.org/promises-book/>
 
-Github:
+相关资料：
 
-<https://github.com/kriskowal/q>
+* [从 filter 聊到 Promise](https://juejin.im/post/5c91afdcf265da60fe7c2613)
 
 **11.Express.js**
 
