@@ -65,6 +65,7 @@
 * [有限状态机在 CSS 动画中的应用](https://github.com/dawn-plex/translate/blob/master/articles/css-animations-with-finite-state-machines.md)
 * [CSS 继承深度解析](https://zhuanlan.zhihu.com/p/24574040)
 * [视频演示如何用纯 CSS 创作一只玉免](https://segmentfault.com/a/1190000015997373)
+* [CSS捡屎记](https://mp.weixin.qq.com/s/tP_MDHcyMFGPI-b8EQVsFA)
 
 ## **react**
 
@@ -122,6 +123,7 @@
 * [Airbnb 在 React Native 上下的赌注（四）：React Native 退役](https://juejin.im/post/5b447b1e6fb9a04fd3437dad)
 * [Airbnb 在 React Native 上下的赌注（五）（完结篇）：Airbnb 移动端路在何方？](https://juejin.im/post/5b46f92de51d45198e721cd7)
 * [Creat React App 2.0 发布](https://mp.weixin.qq.com/s/sCPmYHMH2Dc3SZmQhlJCig)
+* [大前端时代，如何做好C 端业务下的React SSR？](https://mp.weixin.qq.com/s/zzKfcP8sNEU68-UOVIiDvg)
 
 
 ## **webpack**
@@ -152,6 +154,7 @@
 * [你配置Webpack 4的方式可能是错的！](https://mp.weixin.qq.com/s/cX7yuneDxDk8_NnMy3Bc8Q)
 * [Webpack 打包含动态加载的类库](http://scarletsky.github.io/2019/02/19/webpack-bundling-libraries-with-dynamic-imports)
 * [Webapck4+Babel7优化70%速度](https://mp.weixin.qq.com/s/si4yq-M_JS0DqedAhTlKng)
+* [Webpack 构建速度优化](https://mp.weixin.qq.com/s/FS8TxvQo1Vf_X8TYsEUwzA)
 
 ## **gulp**
 
@@ -235,6 +238,8 @@
 * [2019 前端性能优化年度总结 — 第四部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-4.md)
 * [2019 前端性能优化年度总结 — 第五部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-5.md)
 * [2019 前端性能优化年度总结 — 第六部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-6.md)
+* [5款小程序框架全面测评](https://aotu.io/notes/2019/03/12/mini-program-framework-full-review/)
+* [ES5 to ESNext —  自 2015 以来 JavaScript 新增的所有新特性](https://zhuanlan.zhihu.com/p/59535309)
 
 ## **github热门项目（暂以时间分类）**
 
@@ -499,4 +504,5 @@
 * [没有JS的前端：体积更小、速度更快！](https://mp.weixin.qq.com/s/5zx3ap6GtSEHx4bVRNuVnQ)
 * [内网穿透工具的原理与开发实战](https://zhuanlan.zhihu.com/p/30351943)
 * [前端同构渲染的思考与实践](https://juejin.im/post/5c821dc45188257e1f2915b1)
+* [如何在JavaScript面试中过五关斩六将？](https://mp.weixin.qq.com/s/hon5mR--sXxaE-TbDOlEHw)
 
