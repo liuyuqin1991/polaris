@@ -18,3 +18,4 @@
 * [拿下阿里、头条、滴滴的offer后谈谈面试经验（上）](https://mp.weixin.qq.com/s/UNNPuH9aMO0Pw4rY9rhX3Q)
 * [Java 学习/面试指南](https://github.com/Snailclimb/JavaGuide)
 * [To Be Top Javaer - Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)
+* [3万字英国留学生Java后台面经，中offer率5/7](https://www.nowcoder.com/discuss/149285)
