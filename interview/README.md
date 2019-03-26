@@ -10,6 +10,8 @@
 * [2018年6月前端面试经历(中)](https://juejin.im/post/5b3b70ea6fb9a04fe91a5039)
 * [近百高频知识点，十万余字，地表最强前端面试图谱了解下](https://yuchengkai.cn/docs/zh/frontend/)
 * [如何找到一份好的前端开发工作](https://mp.weixin.qq.com/s/Cs3BZEBZEV79hP7qFujOWg)
+* [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)
+* [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(中)](https://juejin.im/post/5c92f499f265da612647b754)
 
 
 ## 后端篇
