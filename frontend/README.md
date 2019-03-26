@@ -27,6 +27,10 @@
 15. Typescript
 16. PWA
 
+## **html5**
+
+**站内资源**
+* [HTML5与CSS3权威指南笔记](https://github.com/liuyuqin1991/polaris/blob/master/frontend/html5/HTML5%E4%B8%8ECSS3%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E7%AC%94%E8%AE%B0.md)
 
 ## **css**
 
