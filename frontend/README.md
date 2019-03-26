@@ -208,9 +208,6 @@
 
 **站外资源**
 
-* [2018 要学习的优秀 JavaScript 库与知识](http://mp.weixin.qq.com/s/qyyDZkfjy57njuncq3_i1w)
-* [2018年值得关注的10大JavaScript动画库](https://www.zcfy.cc/article/10-javascript-animation-libraries-to-follow-in-2018)
-* [多端统一开发框架 - Taro](https://aotu.io/notes/2018/06/07/Taro/)
 * [2017 JavaScript 调查报告概述](http://mp.weixin.qq.com/s/SqmFD0VKiP40q8iJzkE4kA)
 * [2017 年 JavaScript 发展状况回顾](http://mp.weixin.qq.com/s/5phdFz4W3Q2cUYiyWgwK9A)
 * [萌新也能懂的现代 JavaScript 开发](https://zhuanlan.zhihu.com/p/31044340)
@@ -223,6 +220,8 @@
 * [2018 Web 开发者路线图](https://zhuanlan.zhihu.com/p/33565551?utm_source=com.daimajia.gold&utm_medium=social)
 * [最受欢迎的五大前端框架比较](https://mp.weixin.qq.com/s/A1WM8uJD9p-rpip5SYMOmg)
 * [2018 如何玩转 JavaScript](https://juejin.im/entry/5aa0e46d6fb9a028b54775cd)
+* [2018 要学习的优秀 JavaScript 库与知识](http://mp.weixin.qq.com/s/qyyDZkfjy57njuncq3_i1w)
+* [2018年值得关注的10大JavaScript动画库](https://www.zcfy.cc/article/10-javascript-animation-libraries-to-follow-in-2018)
 * [最全最好用的动效落地方法、都帮你总结好了（上）](https://zhuanlan.zhihu.com/p/34501702)
 * [最全最好用的动效落地方法、都帮你总结好了（下）](https://zhuanlan.zhihu.com/p/34815524)
 * [2017前端性能优化清单](https://segmentfault.com/a/1190000008132322)
@@ -231,6 +230,7 @@
 * [JavaScript 2018 中即将迎来的新功能](https://github.com/xitu/gold-miner/blob/master/TODO1/whats-coming-up-in-javascript-2018-async-generators-better-regex.md)
 * [2018 年前端开发回顾](https://juejin.im/post/5c13760ee51d4545ca722d45)
 * [关于JavaScript, NPM官方发布了2018年的回顾以及2019年的预测](https://segmentfault.com/a/1190000017479339)
+* [多端统一开发框架 - Taro](https://aotu.io/notes/2018/06/07/Taro/)
 * [给2019前端的5个建议](https://zhuanlan.zhihu.com/p/55357377)
 * [2019 前端性能优化年度总结 — 第一部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-1.md)
 * [2019 前端性能优化年度总结 — 第二部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-2.md)
