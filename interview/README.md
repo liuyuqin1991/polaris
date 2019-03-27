@@ -21,3 +21,5 @@
 * [Java 学习/面试指南](https://github.com/Snailclimb/JavaGuide)
 * [To Be Top Javaer - Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)
 * [3万字英国留学生Java后台面经，中offer率5/7](https://www.nowcoder.com/discuss/149285)
+* [【面试技巧系列一】备战金三银四，涨薪先人一步（含）](https://www.imooc.com/article/279293)
+* [Java 208 道面试题：Java 基础模块答案](https://www.imooc.com/article/281496)
