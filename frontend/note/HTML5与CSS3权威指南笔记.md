@@ -35,14 +35,10 @@ html5推荐使用utf-8，即 `<meta charset="utf-8">`
 
     * 废除的元素基本上都没有用过，不列出
 
-## 属性新增与废除
 
-* 新增的表单属性
+# HTML5的结构
 
-    * `autofocus`：input，select，textarea与button元素指定，画面打开时自动获得焦点
-    * `placeholder`：input，textarea指定，提示输入
-    * `form`：input，output，select，textarea，button，fieldset指定，声明属于哪个表单，可以将其放在页面的任何位置，而非表单内部
-    * `reauired`：input，textarea指定，检查该元素必须要有输入内容
+HTML5对HTML4一个比较重大的修改就是为了使文档结构更加清晰明确，容易阅读，增加了很多新的元素结构，
 
 
 

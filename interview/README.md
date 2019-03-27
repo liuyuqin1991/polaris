@@ -1,5 +1,6 @@
 ## 前端篇
 
+* [GitHub最全前端资源汇总](https://helloqingfeng.github.io/front-end-index/index.html)
 * [50道 CSS 基础面试题（附答案）](https://juejin.im/entry/5ad2d3bff265da237a4d75dd)
 * [前端笔试题面试题记录（上）](https://juejin.im/post/5aad40e4f265da237f1e12ed)
 * [前端笔试题面试题记录（下）](https://juejin.im/post/5ac984646fb9a028c8131e11)
