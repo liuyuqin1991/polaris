@@ -19,6 +19,7 @@
 ## 后端篇
 * [拿下阿里、头条、滴滴的offer后谈谈面试经验（上）](https://mp.weixin.qq.com/s/UNNPuH9aMO0Pw4rY9rhX3Q)
 * [Java 学习/面试指南](https://github.com/Snailclimb/JavaGuide)
+* [CS-Notes](https://cyc2018.github.io/CS-Notes)(相关知识整理的比较全)
 * [To Be Top Javaer - Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)
 * [3万字英国留学生Java后台面经，中offer率5/7](https://www.nowcoder.com/discuss/149285)
 * [【面试技巧系列一】备战金三银四，涨薪先人一步](https://www.imooc.com/article/279293)(含通用、Java、前端、数据结构和算法)
