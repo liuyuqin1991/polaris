@@ -21,3 +21,8 @@
 * [Java 学习/面试指南](https://github.com/Snailclimb/JavaGuide)
 * [To Be Top Javaer - Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)
 * [3万字英国留学生Java后台面经，中offer率5/7](https://www.nowcoder.com/discuss/149285)
+* [【面试技巧系列一】备战金三银四，涨薪先人一步](https://www.imooc.com/article/279293)(含通用、Java、前端、数据结构和算法)
+* [【面试技巧系列二】扫荡金三银四，offer拿到手软](https://www.imooc.com/article/281607)(含Python、PHP、安卓、iOS)
+* [Java 208 道面试题：Java 基础模块答案](https://www.imooc.com/article/281496)
+* [95%的技术面试必考的JVM知识点都在这，另附加分思路！](https://mp.weixin.qq.com/s/4CE3VS7NZAUf8nBWF8T14w)
+* [但凡面试官考“多线程”，一定会问这10个问题！](https://mp.weixin.qq.com/s/9MbZG1qPm54hPpj4n1RwEw)
