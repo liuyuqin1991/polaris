@@ -71,6 +71,7 @@
 * [视频演示如何用纯 CSS 创作一只玉免](https://segmentfault.com/a/1190000015997373)
 * [CSS捡屎记](https://mp.weixin.qq.com/s/tP_MDHcyMFGPI-b8EQVsFA)
 * [CSS 火焰](https://github.com/chokcoco/iCSS/issues/62)
+* [剖析CSS-Trick，为我所用](https://mp.weixin.qq.com/s/6H8WU6B5p4t2mJKeRaxD1A)
 
 ## **react**
 
