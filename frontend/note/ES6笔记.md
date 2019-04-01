@@ -111,3 +111,49 @@ for (let [key, value] of map) {
 ```
 const { SourceMapConsumer, SourceNode } = require("source-map");
 ```
+
+## 字符串扩展
+> ES6加强了对Unicode的支持，支持超过\u0000——\uFFFF之间的字符，并且扩展了字符串对象
+
+* `codePointAt()`：处理4个字节储存的字符，返回一个字符的Unicode编号。
+* `String.fromCodePoint()`：从码点返回对应字符。
+* 字符串可以被for...of循环遍历。
+* `at()`：可以识别Unicode编号大于0xFFFF的字符，返回正确的字符。
+* `includes()`：返回布尔值，表示是否找到了参数字符串。
+* `startsWith()`：返回布尔值，表示参数字符串是否在源字符串的头部。
+* `endsWith()`：返回布尔值，表示参数字符串是否在源字符串的尾部。
+* `repeat()`：返回一个新字符串，表示将原字符串重复n次。
+* `padStart()`：字符串首部补全。
+    
+    常见用途是为数值补全指定位数。例如：
+    ```
+    '1'.padStart(10, '0') // "0000000001"
+    '12'.padStart(10, '0') // "0000000012"
+    '123456'.padStart(10, '0') // "0000123456"
+    ```
+* `padEnd()`：字符串尾部补全。
+* 可以使用模板字符串来编写dom，js混写。例如：
+    ```
+    //传统写法
+    $('#result').append(
+    'There are <b>' + basket.count + '</b> ' +
+    'items in your basket, ' +
+    '<em>' + basket.onSale +
+    '</em> are on sale!'
+    );
+    //模板写法
+    $('#result').append(`
+    There are <b>${basket.count}</b> items
+    in your basket, <em>${basket.onSale}</em>
+    are on sale!
+    `);
+    ```
+
+    ## 数值扩展
+
+    * `Number.isFinite()`：用来检查一个数值是否为有限的（finite）。
+    * `Number.isNaN()`：判断是否为NaN。
+    * `Number.parseInt()`：与全局方法parseInt一致，属于模块化优化。
+    * `Number.parseFloat()`：与全局方法parseFloat一致，属于模块化优化。
+    * `Number.isInteger()`：判断一个值是否为整数。
+    * `Math.trunc()`：去除一个数字的小数部分。
