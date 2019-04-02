@@ -162,3 +162,112 @@ const { SourceMapConsumer, SourceNode } = require("source-map");
 ## 数组的扩展
 
 * `Array.from()`：将类数组对象或可遍历对象这两类对象转为真正的数组。
+* `Array.of()`：将一组值，转换为数组。
+```
+Array.of() // []
+Array.of(undefined) // [undefined]
+Array.of(1) // [1]
+Array.of(1, 2) // [1, 2]
+```
+* `find()与findIndex()`：找出第一个符合条件的数组元素或数组索引，它的参数是一个回调函数，如果没有符合条件的成员，则返回undefined。
+```
+[1, 4, -5, 10].find((n) => n < 0)
+// -5
+[1, 5, 10, 15].find(function(value, index, arr) {
+return value > 9;
+}) // 10
+[1, 5, 10, 15].findIndex(function(value, index, arr) {
+return value > 9;
+}) // 2
+```
+* `fill()`：使用给定值，填充一个数组。fill方法用于空数组的初始化非常方便。数组中已有的元素，会被全部抹去。
+```
+['a', 'b', 'c'].fill(7)
+// [7, 7, 7]
+new Array(3).fill(7)
+// [7, 7, 7]
+['a', 'b', 'c'].fill(7, 1, 2)
+// ['a', 7, 'c']
+```
+* `entries()，keys()和values()`：用于遍历数组。它们都返回一个遍历器对象，可以
+用for...of循环进行遍历，唯一的区别是keys()是对键名的遍历、values()是对键值的遍历，entries()是对键值对的遍历。
+```
+for (let index of ['a', 'b'].keys()) {
+    console.log(index);
+}
+// 0
+// 1
+for (let elem of ['a', 'b'].values()) {
+    console.log(elem);
+}
+// 'a'
+// 'b'
+for (let [index, elem] of ['a', 'b'].entries()) {
+    console.log(index, elem);
+}
+// 0 "a"
+// 1 "b"
+```
+* `includes()`：表示某个数组是否包含给定的值，与字符串的includes方法类似。
+```
+[1, 2, 3].includes(2); // true
+[1, 2, 3].includes(4); // false
+[1, 2, NaN].includes(NaN); // true
+```
+
+## 函数的扩展
+
+* ES6引入rest参数（形式为“...变量名”），用于获取函数的多余参数。rest参数搭配的变量是一个数组，该变量将多余的参数放入数组中。rest参数之后不能再有其他参数（即只能是最后一个参数），否则会报错。
+
+```
+function add(...values) {
+    let sum = 0;
+    for (var val of values) {
+        sum += val;
+    }
+    return sum;
+}
+
+add(2, 5, 3) // 10
+
+```
+
+* `...`：扩展运算符（spread）是三个点（...）。它好比rest参数的逆运算，将一个数组转为用逗号分隔的参数序列，该运算符主要用于函数调用。
+
+```
+console.log(...[1, 2, 3])
+// 1 2 3
+console.log(1, ...[2, 3, 4], 5)
+// 1 2 3 4 5
+[...document.querySelectorAll('div')]
+// [<div>, <div>, <div>]
+
+function push(array, ...items) {
+    array.push(...items);
+}
+function add(x, y) {
+    return x + y;
+}
+var numbers = [4, 38];
+add(...numbers) // 42
+
+// ES5
+new (Date.bind.apply(Date, [null, 2015, 1, 1]))
+// ES6
+new Date(...[2015, 1, 1]);
+
+//合并数组
+// ES5
+[1, 2].concat(more)
+// ES6
+[1, 2, ...more]
+var arr1 = ['a', 'b'];
+var arr2 = ['c'];
+var arr3 = ['d', 'e'];
+// ES5的合并数组
+arr1.concat(arr2, arr3);
+// [ 'a', 'b', 'c', 'd', 'e' ]
+// ES6的合并数组
+[...arr1, ...arr2, ...arr3]
+// [ 'a', 'b', 'c', 'd', 'e' ]
+```
