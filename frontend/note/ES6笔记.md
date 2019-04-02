@@ -149,11 +149,16 @@ const { SourceMapConsumer, SourceNode } = require("source-map");
     `);
     ```
 
-    ## 数值扩展
+## 数值扩展
 
-    * `Number.isFinite()`：用来检查一个数值是否为有限的（finite）。
-    * `Number.isNaN()`：判断是否为NaN。
-    * `Number.parseInt()`：与全局方法parseInt一致，属于模块化优化。
-    * `Number.parseFloat()`：与全局方法parseFloat一致，属于模块化优化。
-    * `Number.isInteger()`：判断一个值是否为整数。
-    * `Math.trunc()`：去除一个数字的小数部分。
+* `Number.isFinite()`：用来检查一个数值是否为有限的（finite）。
+* `Number.isNaN()`：判断是否为NaN。
+* `Number.parseInt()`：与全局方法parseInt一致，属于模块化优化。
+* `Number.parseFloat()`：与全局方法parseFloat一致，属于模块化优化。
+* `Number.isInteger()`：判断一个值是否为整数。
+* `Math.trunc()`：去除一个数字的小数部分。
+* `Math.sign()`：判断一个数是正数，负数还是0，它会返回五种值：1. 参数为正数，返回+1；2. 参数为负数，返回-1；3. 参数为0，返回0；4. 参数为-0，返回-0;5. 其他值，返回NaN
+
+## 数组的扩展
+
+* `Array.from()`：将类数组对象或可遍历对象这两类对象转为真正的数组。
