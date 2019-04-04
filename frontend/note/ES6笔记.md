@@ -275,4 +275,44 @@ arr1.concat(arr2, arr3);
 ## 对象的扩展
 
 * `Object.is()`：比较两个值是否严格相等，与严格比较运算符（===）的行为基本一致。
-* `Object.assign()`：用于对象的合并，将源对象（source）的所有可枚举属性，复制到目标对象（target）。Object.assign方法实行的是浅拷贝，而不是深拷贝。
+* `Object.assign()`：用于对象的合并，将源对象（source）的所有可枚举属性，复制到目标对象（target）。Object.assign方法实行的是浅拷贝，而不是深拷贝，方法用途：
+
+    * 为对象添加属性
+    ```
+    class Point {
+        constructor(x, y) {
+            Object.assign(this, {x, y});
+        }
+    }
+    ```
+    * 为对象添加方法
+    ```
+    Object.assign(SomeClass.prototype, {
+        someMethod(arg1, arg2) {
+            ···
+        }
+        anotherMethod() {
+            ···
+        }
+    });
+    ```
+    * 克隆对象
+    ```
+    function clone(origin) {
+        return Object.assign({}, origin);
+    }
+    ```
+    * 合并多个对象
+    ```
+    const merge = (target, ...sources) => Object.assign(target, ...sources);
+    ```
+    * 为属性指定默认值
+    ```
+    const DEFAULTS = {
+        logLevel: 0,
+        outputFormat: 'html'
+    };
+    function processContent(options) {
+        let options = Object.assign({}, DEFAULTS, options);
+    }
+    ```
