@@ -131,7 +131,7 @@
 * [Creat React App 2.0 发布](https://mp.weixin.qq.com/s/sCPmYHMH2Dc3SZmQhlJCig)
 * [大前端时代，如何做好C 端业务下的React SSR？](https://mp.weixin.qq.com/s/zzKfcP8sNEU68-UOVIiDvg)
 * [为什么说Suspense是一种巨大的突破](https://zhuanlan.zhihu.com/p/60218372)
-
+* [React Context API 与模式变迁, Webpack 与 Web 优化, AI 界面生成](https://juejin.im/post/5a81ac8e6fb9a0635c0478fc)
 
 ## **webpack**
 
@@ -207,7 +207,6 @@
 * [Vue CLI 3 配置中 Modern mode 是什么](https://mp.weixin.qq.com/s/X_kl6AJ0Q_9BJk0_eRSM1w)
 * [Vue高版本中一些新特性的使用](https://github.com/masterkong/blog/issues/7)
 * [尤雨溪：Vue 3.0 计划](https://juejin.im/post/5bb719b9f265da0ab915dbdd)
-* [megalo -- 网易考拉小程序解决方案](https://mp.weixin.qq.com/s/n5nUGdOO-JxkPsM7G7UCAQ)
 
 
 ## **总结**
@@ -245,7 +244,6 @@
 * [2019 前端性能优化年度总结 — 第四部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-4.md)
 * [2019 前端性能优化年度总结 — 第五部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-5.md)
 * [2019 前端性能优化年度总结 — 第六部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-6.md)
-* [5款小程序框架全面测评](https://aotu.io/notes/2019/03/12/mini-program-framework-full-review/)
 * [ES5 to ESNext —  自 2015 以来 JavaScript 新增的所有新特性](https://zhuanlan.zhihu.com/p/59535309)
 
 ## **github热门项目（暂以时间分类）**
@@ -300,6 +298,23 @@
 * [jquery图片热区jquery.image-maps——2016-08-03](https://blog.csdn.net/liuyuqin1991/article/details/52104994)
 
 
+## **小程序**
+
+**站外资源**
+
+* [记“编写babel插件”与“通过语法解析替换小程序路由表”的经历](https://segmentfault.com/a/1190000013130489)
+* [微信小程序之-NBA在线直播小程序开发](https://juejin.im/post/5ad614c46fb9a028d7011e7f)
+* [微信小程序也要强行热更代码，鹅厂不服你来肛我呀](https://juejin.im/entry/5ad91eda6fb9a07acb3c67f2)
+* [微信小程序朋友圈分享图片生成方案实现](https://juejin.im/post/5b40b158e51d4518f543c7b0)
+* [小程序 LRU 存储设计](https://juejin.im/post/5b42d3ede51d4519277b6ce3)
+* [简易商城小程序全栈开发(mpvue+koa+mongodb)](https://juejin.im/post/5b548ce8e51d45191d79f8a6)
+* [微信小程序30分钟从陌生到熟悉（上）](https://mp.weixin.qq.com/s/t8HH4BgWNZ10gbFpAiv_1A)
+* [微信小程序30分钟从陌生到熟悉（下）](https://mp.weixin.qq.com/s/gy2xrKy9QJJtRiOy_6i6iA)
+* [微信小程序架构原理](http://eux.baidu.com//blog/fe/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%9E%B6%E6%9E%84%E5%8E%9F%E7%90%86)
+* [近两万字小程序攻略发布了（超精华） ](https://juejin.im/post/5b8fd1416fb9a05cf3710690)
+* [小程序性能优化的几点实践技巧](https://mp.weixin.qq.com/s/zhBQmjDoo056hlyR41RTIw)
+* [megalo -- 网易考拉小程序解决方案](https://mp.weixin.qq.com/s/n5nUGdOO-JxkPsM7G7UCAQ)
+* [5款小程序框架全面测评](https://aotu.io/notes/2019/03/12/mini-program-framework-full-review/)
 
 ## **其他前端资源**
 
@@ -345,8 +360,6 @@
 * [哔哩哔哩的前端之路](https://zhuanlan.zhihu.com/p/32487533)
 * [你所忽略的js隐式转换](https://juejin.im/post/5a7172d9f265da3e3245cbca)
 * [手把手教你用 SVG 符号和 CSS 变量做出彩色图标](https://zhuanlan.zhihu.com/p/33623303)
-* [记“编写babel插件”与“通过语法解析替换小程序路由表”的经历](https://segmentfault.com/a/1190000013130489)
-* [React Context API 与模式变迁, Webpack 与 Web 优化, AI 界面生成](https://juejin.im/post/5a81ac8e6fb9a0635c0478fc)
 * [原生JS数据绑定](http://zcfy.cc/article/native-javascript-data-binding)
 * [JavaScript 进阶之深入理解数据双向绑定](http://mp.weixin.qq.com/s/CiLa2wjl4VriA-JYRS_o6w)
 * [10 种最常见的 Javascript 错误](https://elevenbeans.github.io/2018/02/05/top-10-javascript-errors/)
@@ -381,9 +394,7 @@
 * [我是如何在公司项目中使用ESLint来提升代码质量的](https://juejin.im/post/5ad367695188255c9323bb30)
 * [彻底理解浏览器的缓存机制](https://heyingye.github.io/2018/04/16/%E5%BD%BB%E5%BA%95%E7%90%86%E8%A7%A3%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84%E7%BC%93%E5%AD%98%E6%9C%BA%E5%88%B6/)
 * [高阶函数，你怎么那么漂亮呢！](https://juejin.im/post/5ad6b34a6fb9a028cc61bfb3)
-* [微信小程序之-NBA在线直播小程序开发](https://juejin.im/post/5ad614c46fb9a028d7011e7f)
 * [玩转HTML5 Video视频WebVTT字幕使用样式与制作](http://www.zhangxinxu.com/wordpress/2018/03/html5-video-webvtt-subtitle/)
-* [微信小程序也要强行热更代码，鹅厂不服你来肛我呀](https://juejin.im/entry/5ad91eda6fb9a07acb3c67f2)
 * [超大型 JavaScript 应用的设计哲学](https://zhuanlan.zhihu.com/p/35929167)
 * [JS 中的设计模式了解一下？](https://juejin.im/post/5adea689f265da0b873a212e)
 * [YAML 语言教程](http://www.ruanyifeng.com/blog/2016/07/yaml.html)
@@ -433,10 +444,8 @@
 * [deno深入揭秘及未来展望](https://www.cnblogs.com/accordion/p/9247016.html)
 * [WebView缓存原理分析和应用](https://unclechen.github.io/2017/05/13/WebView%E7%BC%93%E5%AD%98%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%92%8C%E5%BA%94%E7%94%A8/)
 * [接口咋整？前端数据药神来也](https://juejin.im/post/5b4160f4f265da0f83646849)
-* [微信小程序朋友圈分享图片生成方案实现](https://juejin.im/post/5b40b158e51d4518f543c7b0)
 * [JSON Web Token - 在Web应用间安全地传递信息](https://mp.weixin.qq.com/s/PY6xSf-3KKPHIjS9T5pufw)
 * [八幅漫画理解使用JSON Web Token设计单点登录系统](http://blog.leapoahead.com/2015/09/07/user-authentication-with-jwt/)
-* [小程序 LRU 存储设计](https://juejin.im/post/5b42d3ede51d4519277b6ce3)
 * [洞察 video 超能力系列——玩转 mp4](https://techblog.toutiao.com/2018/07/09/untitled-51/)
 * [组件开发的单元素模式](https://zhuanlan.zhihu.com/p/39814349)
 * [这个控件叫：Skeleton Screen/加载占位图](https://zhuanlan.zhihu.com/p/26014116)
@@ -444,11 +453,8 @@
 * [如何不择手段提升scroll事件的性能](https://zhuanlan.zhihu.com/p/30078937)
 * [射鸡狮说圆形的进度条不是我要的效果](https://segmentfault.com/a/1190000015719837)
 * [手把手教你用原生JavaScript造轮子（1）——分页器](https://juejin.im/post/5b592635e51d4533d2043e15)
-* [简易商城小程序全栈开发(mpvue+koa+mongodb)](https://juejin.im/post/5b548ce8e51d45191d79f8a6)
 * [JavaScript 中的私有变量](https://github.com/xitu/gold-miner/blob/master/TODO/private-variables-in-javascript.md)
 * [前端性能之JavaScript成本2018版](https://mp.weixin.qq.com/s/Ngj1bVkXRsXx0Ke6EdWkCg)
-* [微信小程序30分钟从陌生到熟悉（上）](https://mp.weixin.qq.com/s/t8HH4BgWNZ10gbFpAiv_1A)
-* [微信小程序30分钟从陌生到熟悉（下）](https://mp.weixin.qq.com/s/gy2xrKy9QJJtRiOy_6i6iA)
 * [用JS写一个同Excel表现的智能填充算法](https://segmentfault.com/a/1190000015951750)
 * [前端程序员必须掌握之三角函数在前端动画中的应用](https://juejin.im/entry/5b79a1d6f265da4343459b7f)
 * [如何精确统计页面停留时长](https://techblog.toutiao.com/2018/06/05/ru-he-jing-que-tong-ji-ye-mian-ting-liu-shi-chang/)
@@ -458,8 +464,6 @@
 * [JavaScript 引擎基础：原型优化](https://hijiangtao.github.io/2018/08/21/Prototypes/)
 * [一口(很长的)气了解 Babel](https://github.com/easonyq/easonyq.github.io/blob/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/others/babel.md)
 * [鸽子传信解释 HTTPS](https://blog.hhking.cn/2018/08/25/https-explained-with-carrier-pigeons/)
-* [微信小程序架构原理](http://eux.baidu.com//blog/fe/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%9E%B6%E6%9E%84%E5%8E%9F%E7%90%86)
-* [近两万字小程序攻略发布了（超精华） ](https://juejin.im/post/5b8fd1416fb9a05cf3710690)
 * [immer.js 简介及源码简析](https://zhangzhao.name/posts/immer-immutable/)
 * [精准操控的滚动体验，浅谈新标准 Scroll Snap](https://mp.weixin.qq.com/s/UP6ib3B39OOsEd-X9ZJ8UQ)
 * [如何在 JavaScript 中更好地使用数组](https://juejin.im/post/5b8d0a74f265da431d0e7ec0)
@@ -514,4 +518,3 @@
 * [PNG图片压缩原理](https://github.com/airuikun/blog/issues/1)
 * [浏览器帧原理剖析](https://juejin.im/post/5c9c66075188251dab07413d)
 * [小菜前端的技术栈是如何规划和演进的](https://juejin.im/post/5c99c17df265da6129788ae2)
-* [小程序性能优化的几点实践技巧](https://mp.weixin.qq.com/s/zhBQmjDoo056hlyR41RTIw)
