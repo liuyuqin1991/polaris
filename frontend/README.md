@@ -511,5 +511,7 @@
 * [没有JS的前端：体积更小、速度更快！](https://mp.weixin.qq.com/s/5zx3ap6GtSEHx4bVRNuVnQ)
 * [内网穿透工具的原理与开发实战](https://zhuanlan.zhihu.com/p/30351943)
 * [前端同构渲染的思考与实践](https://juejin.im/post/5c821dc45188257e1f2915b1)
-* [如何在JavaScript面试中过五关斩六将？](https://mp.weixin.qq.com/s/hon5mR--sXxaE-TbDOlEHw)
-
+* [PNG图片压缩原理](https://github.com/airuikun/blog/issues/1)
+* [浏览器帧原理剖析](https://juejin.im/post/5c9c66075188251dab07413d)
+* [小菜前端的技术栈是如何规划和演进的](https://juejin.im/post/5c99c17df265da6129788ae2)
+* [小程序性能优化的几点实践技巧](https://mp.weixin.qq.com/s/zhBQmjDoo056hlyR41RTIw)

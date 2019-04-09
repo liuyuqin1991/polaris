@@ -16,6 +16,7 @@
 * [写给初级前端的面试经验](https://mp.weixin.qq.com/s/UD0cuGhJnPzgHkwWlNTzQQ)
 * [五年面世，三年模拟](https://juejin.im/post/5ca0425e51882567ce181037)
 * [寒冬中的前端社招面试题](https://juejin.im/post/5c8f30606fb9a070ef60996d)
+* [如何在JavaScript面试中过五关斩六将？](https://mp.weixin.qq.com/s/hon5mR--sXxaE-TbDOlEHw)
 
 
 ## 后端篇
