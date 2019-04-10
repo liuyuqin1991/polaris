@@ -250,7 +250,6 @@
 
 **站外资源**
 
-* [技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
 * [【本周项目】7.14-7.20](https://mp.weixin.qq.com/s/tZzPbTgYaLEGZ7svUfPwxg)
 * [【本周项目】7.21-7.27](https://mp.weixin.qq.com/s/Mu8e1YeSI2vNSMcEelzyyg)
 * [【本周项目】7.28-8.3](https://mp.weixin.qq.com/s/zLD3K_51YF-MKFguABHNQg)
