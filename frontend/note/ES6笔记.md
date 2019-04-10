@@ -316,3 +316,99 @@ arr1.concat(arr2, arr3);
         let options = Object.assign({}, DEFAULTS, options);
     }
     ```
+
+* `Object.keys()`：返回一个数组，成员是参数对象自身的（不含继承的）所有可遍历（enumerable）属性的键名
+* `Object.values()`：返回一个数组，成员是参数对象自身的（不含继承的）所有可遍历（enumerable）属性的键值。
+* `Object.entries()`：返回一个数组，成员是参数对象自身的（不含继承的）所有可遍历（enumerable）属性的键值对数组。
+
+## Symbol
+
+> 一种新的原始数据类型，表示独一无二的值，它是JavaScript语言的第七种数据类型
+
+* Sybmol生成
+```
+let s = Symbol();
+
+let s1 = Symbol('foo');
+
+s1.toString() // "Symbol(foo)"
+```
+
+* 消除魔术字符串
+```
+const shapeType = {
+    triangle: Symbol()
+};
+
+function getArea(shape, options) {
+    let area = 0;
+    switch (shape) {
+        case shapeType.triangle:
+            area = .5 * options.width * options.height;
+            break;
+    }
+    return area;
+}
+
+getArea(shapeType.triangle, { width: 100, height: 100 });
+```
+
+## Proxy
+
+> 在目标对象之前架设一层“拦截”，外界对该对象的访问，都必须先通过这层拦截，因此提供了一种机制，可以对外界的访问进行过
+滤和改写
+
+ES6原生提供Proxy构造函数，用来生成Proxy实例。
+```
+var proxy = new Proxy(target, handler);
+```
+Proxy对象的所有用法，都是上面这种形式，不同的只是handler参数的写法。其中，new Proxy()表示生成一个Proxy实例，target参数表示所要拦截的
+目标对象，handler参数也是一个对象，用来定制拦截行为。
+
+## Reflect
+
+> ES6为了操作对象而提供的新的API
+
+* 将Object对象的一些明显属于语言内部的方法（比如Object.defineProperty），放到Reflect对象上。现阶段，某些方法同时
+在Object和Reflect对象上部署，未来的新方法将只部署在Reflect对象上。
+* 修改某些Object方法的返回结果，让其变得更合理。比如，Object.defineProperty(obj, name, desc)在无法定义属性时，会抛出一个错误，
+而Reflect.defineProperty(obj, name, desc)则会返回false。
+
+```
+// 老写法
+try {
+    Object.defineProperty(target, property, attributes);
+    // success
+} catch (e) {
+    // failure
+}
+
+// 新写法
+if (Reflect.defineProperty(target, property, attributes)) {
+    // success
+} else {
+    // failure
+}
+
+// 老写法
+'assign' in Object // true
+
+// 新写法
+Reflect.has(Object, 'assign') // true
+```
+
+* Reflect对象的方法清单如下，共13个。
+
+    * Reflect.apply(target,thisArg,args)
+    * Reflect.construct(target,args)
+    * Reflect.get(target,name,receiver)
+    * Reflect.set(target,name,value,receiver)
+    * Reflect.defineProperty(target,name,desc)
+    * Reflect.deleteProperty(target,name)
+    * Reflect.has(target,name)
+    * Reflect.ownKeys(target)
+    * Reflect.isExtensible(target)
+    * Reflect.preventExtensions(target)
+    * Reflect.getOwnPropertyDescriptor(target, name)
+    * Reflect.getPrototypeOf(target)
+    * Reflect.setPrototypeOf(target, prototype)
