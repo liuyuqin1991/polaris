@@ -20,6 +20,7 @@
 
 ## 后端篇
 * [拿下阿里、头条、滴滴的offer后谈谈面试经验（上）](https://mp.weixin.qq.com/s/UNNPuH9aMO0Pw4rY9rhX3Q)
+* [拿下阿里、头条、滴滴的offer后谈谈面试经验（下）](https://mp.weixin.qq.com/s/KtB1mpiZQMRhYyYiz5Xcsw)
 * [Java 学习/面试指南](https://github.com/Snailclimb/JavaGuide)
 * [CS-Notes](https://cyc2018.github.io/CS-Notes)(相关知识整理的比较全)
 * [To Be Top Javaer - Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)
