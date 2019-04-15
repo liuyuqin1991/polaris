@@ -399,16 +399,53 @@ Reflect.has(Object, 'assign') // true
 
 * Reflect对象的方法清单如下，共13个。
 
-    * Reflect.apply(target,thisArg,args)
+    * Reflect.apply(target,thisArg,args)：
     * Reflect.construct(target,args)
-    * Reflect.get(target,name,receiver)
-    * Reflect.set(target,name,value,receiver)
+    * Reflect.get(target,name,receiver)：查找并返回target对象的name属性，如果没有该属性，则返回undefined。如果name属性部署了读取函数，则读取函数的this绑定receiver。
+    ```
+    var obj = {
+        get foo() { return this.bar(); },
+        bar: function() { ... }
+    };
+
+    // 下面语句会让 this.bar()
+    // 变成调用 wrapper.bar()
+    Reflect.get(obj, "foo", wrapper);
+    ```
+    * Reflect.set(target,name,value,receiver)：设置target对象的name属性等于value。如果name属性设置了赋值函数，则赋值函数的this绑定receiver。
     * Reflect.defineProperty(target,name,desc)
-    * Reflect.deleteProperty(target,name)
-    * Reflect.has(target,name)
+    * Reflect.deleteProperty(target,name)：等同于delete obj[name]。
+    * Reflect.has(target,name)：等同于name in obj。
     * Reflect.ownKeys(target)
     * Reflect.isExtensible(target)
     * Reflect.preventExtensions(target)
     * Reflect.getOwnPropertyDescriptor(target, name)
     * Reflect.getPrototypeOf(target)
     * Reflect.setPrototypeOf(target, prototype)
+
+## Set
+    
+> ES6提供了新的数据结构Set。它类似于数组，但是成员的值都是唯一的，没有重复的值。
+
+* Set操作方法
+
+    * `add(value)`：添加某个值，返回Set结构本身。
+    * `delete(value)`：删除某个值，返回一个布尔值，表示删除是否成功。
+    * `has(value)`：返回一个布尔值，表示该值是否为Set的成员。
+    * `clear()`：清除所有成员，没有返回值。
+
+* Set遍历方法
+
+    * `keys()`：返回键名的遍历器。
+    * `values()`：返回键值的遍历器。
+    * `entries()`：返回键值对的遍历器。
+    * `forEach()`：使用回调函数遍历每个成员。
+
+* Set使用实例
+
+    * 去除数组重复元素
+    ```
+    // 去除数组的重复成员
+    [...new Set(array)]
+    ```
+

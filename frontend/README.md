@@ -425,7 +425,6 @@
 * [那些前端MVVM框架是如何诞生的](https://zhuanlan.zhihu.com/p/36453279)
 * [基于Docker+Consul+Registrator+Nodejs实现服务治理（一）](https://github.com/chenchunyong/blog/blob/master/microservice/serviceRegister.md)
 * [基于Docker+Consul+Registrator+Nodejs实现服务治理（二）](https://github.com/jasonGeng88/blog/blob/master/201704/service_discovery.md)
-* [面试官：阮一峰版的快速排序完全是错的](https://juejin.im/post/5af4902a6fb9a07abf728c40)
 * [如何加密传输和存储用户密码](https://juejin.im/post/5af5711e5188254267261e3b)
 * [ES6之路之模块详解](https://mp.weixin.qq.com/s/bP-hhEm01V63R-hAYsKbpw)
 * [console觉醒之路，打印个动画如何](https://juejin.im/post/5afafb0c6fb9a07ac65331fe)

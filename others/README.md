@@ -33,6 +33,7 @@
 * [揭秘前端字符的戏精之路](http://mp.weixin.qq.com/s/jTSws4W-PDxVgDvePvMO2g)
 * [谷歌大脑2017总结 第一弹（Jeff Dean执笔，干货满满，值得收藏）](http://mp.weixin.qq.com/s/a0HFS95ZXiZXNh5qXbmUBA)
 * [谷歌大脑2017总结 第二弹（Jeff Dean执笔，干货满满，值得收藏）](https://mp.weixin.qq.com/s/RazWCsBY_dF1VR0JTYIjsw)
+* [面试官：阮一峰版的快速排序完全是错的](https://juejin.im/post/5af4902a6fb9a07abf728c40)
 * [如何有效地做算法题](http://mp.weixin.qq.com/s/Zf__tGoVB_iONKL0lTg1Ew)
 * [DeepMind提出可微分逻辑编程，结合深度学习与符号程序优点](http://mp.weixin.qq.com/s/lPAcNayqcz1sh8xNVklzEA)
 * [Hubble 见证 Vue 与 React 突破 10 万 GitHub Stars!](https://seven.ooo/hubble-congrats-react-and-vue-100k-stars/#Hubble)
