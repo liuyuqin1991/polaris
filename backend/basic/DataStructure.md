@@ -1,5 +1,7 @@
 - [相关文章（一些好玩的文章索引）](#相关文章：)
 # 相关文章
+- [JVM核心知识体系](https://mp.weixin.qq.com/s/3_DEPdZTnGmdGBd5iTrVjQ)
+- [再有人问你Java内存模型是什么，就把这篇文章发给他。](https://mp.weixin.qq.com/s/r_gtAdTVBKSm52To-2d4Ew)
 - [数组的引用变量和内存分配(有图示比较容易理解)](http://www.cnblogs.com/chenyaqiang/p/5419493.html)
 - [死磕Synchronized底层实现](https://github.com/farmerjohngit/myblog/issues/12)
 - [Java引用类型原理剖析](https://github.com/farmerjohngit/myblog/issues/10)
