@@ -132,6 +132,8 @@
 * [大前端时代，如何做好C 端业务下的React SSR？](https://mp.weixin.qq.com/s/zzKfcP8sNEU68-UOVIiDvg)
 * [为什么说Suspense是一种巨大的突破](https://zhuanlan.zhihu.com/p/60218372)
 * [React Context API 与模式变迁, Webpack 与 Web 优化, AI 界面生成](https://juejin.im/post/5a81ac8e6fb9a0635c0478fc)
+* [深入了解React，从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/WiRUFWmsq-FSudtSCld6Fg)
+* [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
 
 ## **webpack**
 
