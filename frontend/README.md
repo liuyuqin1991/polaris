@@ -246,11 +246,10 @@
 * [2019 前端性能优化年度总结 — 第六部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-6.md)
 * [ES5 to ESNext —  自 2015 以来 JavaScript 新增的所有新特性](https://zhuanlan.zhihu.com/p/59535309)
 
-## **github热门项目（暂以时间分类）**
+## **github增速最快项目（暂以时间分类）**
 
 **站外资源**
 
-* [技术面试必备基础知识](https://github.com/CyC2018/CS-Notes)
 * [【本周项目】7.14-7.20](https://mp.weixin.qq.com/s/tZzPbTgYaLEGZ7svUfPwxg)
 * [【本周项目】7.21-7.27](https://mp.weixin.qq.com/s/Mu8e1YeSI2vNSMcEelzyyg)
 * [【本周项目】7.28-8.3](https://mp.weixin.qq.com/s/zLD3K_51YF-MKFguABHNQg)
@@ -285,6 +284,26 @@
 * [【本周项目】2.23-3.1](https://mp.weixin.qq.com/s/C0thWSPXD4fG_ZTj_90VVQ)
 * [【本周项目】3.2-3.8](https://mp.weixin.qq.com/s/k-n7ZRTP5MIeE5GKDrEj4Q)
 * [【本周项目】3.9-3.15](https://mp.weixin.qq.com/s/RqgmqVS_L16L-PC0m9PQTQ)
+* [【本周项目】3.16-3.22](https://mp.weixin.qq.com/s/JZ1l8X0bUhPI1Cl_vcYulQ)
+
+    * **[lax.js](https://github.com/alexfoxy/laxxx)**：lax.js 是一个简单轻量的 Javascript 插件，当滚动页面时可以帮助创建流畅漂亮的动画。
+    * **[wechat-format](https://github.com/lyricat/wechat-format)**：wechat-format 是微信公众号排版编辑器，可以将 Markdown 转换成微信特制的 HTML。
+    * **[webiny-js](https://github.com/Webiny/webiny-js)**：Webiny 是一个无服务的开源 CMS，可以帮助我们方便地构建网站和 Web 应用程序。
+    * **[generative.fm](https://github.com/generative-music/generative.fm)**：generative.fm是一个在浏览器中播放“生成音乐”的平台。生成音乐是一种新的音乐形式，
+
+* [【本周项目】3.23-3.29](https://mp.weixin.qq.com/s/ihA0vUFAkfyk3DUeIIRLBA)
+
+    * **[majestic](https://github.com/Raathigesh/majestic)**：Jest 的零配置 GUI。
+    * **[griffith](https://github.com/zhihu/griffith)**：Griffith 是基于 React 的视频播放组件，具有流式播放、高扩展性和高可靠性等特性。
+    * **[Logoly](https://github.com/bestony/logoly)**：Logoly 是一款帮助生成 Pornhub 风格 logo 的工具。
+    * **[996.ICU](https://github.com/996icu/996.ICU)**：“996”工作制，即每天早 9 点到岗，一直工作到晚上 9 点，每周工作 6 天。你 996 了么？
+
+* [【本周项目】3.30-4.6](https://mp.weixin.qq.com/s/dspZHBuXvoEoV2Atr5j_Bw)
+
+    * **[Tone.js](https://github.com/Tonejs/Tone.js)**： Tone.js 是一个 Web Audio 框架，用于在浏览器中创建交互式音乐。
+    * **[Editor.js](https://github.com/codex-team/editor.js)**：Editor.js 是一个 Block-Styled 的编辑器。块是结构单元，例如段落、标题、图像、视频等等都是“块”。
+    * **[Zhui](https://github.com/zhui-team/zhui)**：Zhui 是一款带有中国风的 React 组件库。
+    * **[water.css](https://github.com/kognise/water.css)**：可以用HTML 写一个简单的页面，而又不用写繁杂的CSS。
 
 ## **jquery**
 
@@ -406,7 +425,6 @@
 * [那些前端MVVM框架是如何诞生的](https://zhuanlan.zhihu.com/p/36453279)
 * [基于Docker+Consul+Registrator+Nodejs实现服务治理（一）](https://github.com/chenchunyong/blog/blob/master/microservice/serviceRegister.md)
 * [基于Docker+Consul+Registrator+Nodejs实现服务治理（二）](https://github.com/jasonGeng88/blog/blob/master/201704/service_discovery.md)
-* [面试官：阮一峰版的快速排序完全是错的](https://juejin.im/post/5af4902a6fb9a07abf728c40)
 * [如何加密传输和存储用户密码](https://juejin.im/post/5af5711e5188254267261e3b)
 * [ES6之路之模块详解](https://mp.weixin.qq.com/s/bP-hhEm01V63R-hAYsKbpw)
 * [console觉醒之路，打印个动画如何](https://juejin.im/post/5afafb0c6fb9a07ac65331fe)
@@ -518,3 +536,4 @@
 * [PNG图片压缩原理](https://github.com/airuikun/blog/issues/1)
 * [浏览器帧原理剖析](https://juejin.im/post/5c9c66075188251dab07413d)
 * [小菜前端的技术栈是如何规划和演进的](https://juejin.im/post/5c99c17df265da6129788ae2)
+* [在阿里云做前端](https://zhuanlan.zhihu.com/p/61127760)
