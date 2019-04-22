@@ -134,6 +134,8 @@
 * [React Context API 与模式变迁, Webpack 与 Web 优化, AI 界面生成](https://juejin.im/post/5a81ac8e6fb9a0635c0478fc)
 * [深入了解React，从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/WiRUFWmsq-FSudtSCld6Fg)
 * [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
+* [十个案例学会 React Hooks](https://github.com/happylindz/blog/issues/19)
+* [深入了解React，从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/WiRUFWmsq-FSudtSCld6Fg)
 
 ## **webpack**
 
@@ -247,6 +249,8 @@
 * [2019 前端性能优化年度总结 — 第五部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-5.md)
 * [2019 前端性能优化年度总结 — 第六部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-6.md)
 * [ES5 to ESNext —  自 2015 以来 JavaScript 新增的所有新特性](https://zhuanlan.zhihu.com/p/59535309)
+* [Vuex、Flux、Redux、Redux-saga、Dva、MobX](https://zhuanlan.zhihu.com/p/53599723)
+* [基于Redux/Vuex/MobX等库的通用化状态OOP](https://mp.weixin.qq.com/s/ML4aODMXDwfQWlb-EjfXbg)
 
 ## **github增速最快项目（暂以时间分类）**
 
@@ -529,7 +533,6 @@
 * [JavaScript 常见设计模式](https://juejin.im/post/5c80f57f51882532cd57b64d)
 * [如何自动搞定全站图片的alt属性？](https://mp.weixin.qq.com/s/OXxaoBxGyIFgcV7cb-9cTw)
 * [页面可视化搭建工具技术要点](https://github.com/CntChen/cntchen.github.io/issues/17)
-* [Vuex、Flux、Redux、Redux-saga、Dva、MobX](https://zhuanlan.zhihu.com/p/53599723)
 * [精读《Serverless 给前端带来了什么》](https://zhuanlan.zhihu.com/p/58877583)
 * [Web渲染概述](https://mp.weixin.qq.com/s/yFEjjLxIypjX_CfvfXShgw)
 * [没有JS的前端：体积更小、速度更快！](https://mp.weixin.qq.com/s/5zx3ap6GtSEHx4bVRNuVnQ)
@@ -539,3 +542,6 @@
 * [浏览器帧原理剖析](https://juejin.im/post/5c9c66075188251dab07413d)
 * [小菜前端的技术栈是如何规划和演进的](https://juejin.im/post/5c99c17df265da6129788ae2)
 * [在阿里云做前端](https://zhuanlan.zhihu.com/p/61127760)
+* [彻底终结 Javascript 背后的隐式类型转换](https://github.com/chunpu/blog/issues/104)
+* [GraphQL和Thrift在Airbnb架构中的配合使用](https://zhuanlan.zhihu.com/p/47532583)
+* [图解 Map、Reduce 和 Filter 数组方法](https://juejin.im/post/5caf030d6fb9a068736d2d7c)

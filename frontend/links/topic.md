@@ -175,6 +175,10 @@ ECMAScript 6
 
 * [ECMAScript 6 笔记](https://github.com/liuyuqin1991/polaris/blob/master/frontend/note/ES6%E7%AC%94%E8%AE%B0.md)
 
+站外资源：
+
+* [深入实践 ES6 Proxy & Reflect](https://zhuanlan.zhihu.com/p/60126477)
+
 教程：
 
 <http://es6.ruanyifeng.com/>
