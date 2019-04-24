@@ -545,3 +545,4 @@
 * [彻底终结 Javascript 背后的隐式类型转换](https://github.com/chunpu/blog/issues/104)
 * [GraphQL和Thrift在Airbnb架构中的配合使用](https://zhuanlan.zhihu.com/p/47532583)
 * [图解 Map、Reduce 和 Filter 数组方法](https://juejin.im/post/5caf030d6fb9a068736d2d7c)
+* [基于色键技术的纯客户端实时蒙版弹幕](https://github.com/parksben/masking-danmaku-demo/blob/master/how-to-implement-masking-danmaku.md)
