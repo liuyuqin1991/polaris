@@ -297,6 +297,7 @@ Github：
 * [从 JavaScript 到 TypeScript](http://muyunyun.cn/posts/66a54fc2/index.html)
 * [TypeScript 实践分享](https://juejin.im/post/5a9c004a6fb9a028b92c9e91)
 * [TypeScript 和 Babel：一场美丽的结合](https://juejin.im/post/5c822e426fb9a04a0a5ffb49)
+* [TypeScript - 一种思维方式](https://zhuanlan.zhihu.com/p/63346965)
 
 **16.PWA**
 
