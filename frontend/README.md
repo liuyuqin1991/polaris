@@ -72,6 +72,7 @@
 * [CSS捡屎记](https://mp.weixin.qq.com/s/tP_MDHcyMFGPI-b8EQVsFA)
 * [CSS 火焰](https://github.com/chokcoco/iCSS/issues/62)
 * [剖析CSS-Trick，为我所用](https://mp.weixin.qq.com/s/6H8WU6B5p4t2mJKeRaxD1A)
+* [fixed 定位失效 | 不受控制的 position:fixed](https://github.com/chokcoco/iCSS/issues/24)
 
 ## **react**
 
