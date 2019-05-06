@@ -494,6 +494,61 @@ Reflect.has(Object, 'assign') // true
     * entries()：返回所有成员的遍历器。
     * forEach()：遍历Map的所有成员。
 
-## Generator 函数
+## Generator 函数 
+
+> 不常用，跳过
+
+## Promise对象
+
+> Promise是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。ES6原生支持了promise
+
+### 概念
+
+所谓Promise，简单说就是一个容器，里面保存着某个未来才会结束的事件（通常是一个异步操作）的结果。从语法上说，Promise是一个对象，从它
+可以获取异步操作的消息。Promise提供统一的API，各种异步操作都可以用同样的方法进行处理。
+
+### 特点
+
+* 对象的状态不受外界影响
+> Promise对象代表一个异步操作，有三种状态：Pending（进行中）、Resolved（已完成，又称Fulfilled）
+和Rejected（已失败）。只有异步操作的结果，可以决定当前是哪一种状态，任何其他操作都无法改变这个状态。
+* 一旦状态改变，就不会再变，任何时候都可以得到这个结果
+> Promise对象的状态改变，只有两种可能：从Pending变为Resolved和从Pending变
+为Rejected。只要这两种情况发生，状态就凝固了，不会再变了，会一直保持这个结果。
+
+### 优点
+
+可以将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数。此外，Promise对象提供统一的接口，使得控制异步操作更加容易。
+
+### 缺点
+
+* 无法取消Promise，一旦新建它就会立即执行，无法中途取消。
+* 如果不设置回调函数，Promise内部抛出的错误，不会反应到外部。
+* 当处于Pending状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）。
+
+### 注意细节
+
+* resolve函数的参数除了正常的值以外（`resolve(data);`），还可能是另一个Promise实例(`resolve(new Promise())`)，表示异步操作的结果有可能是一个值，也有可能是另一个异步操作
+* Promis的状态变为Resolved，会调用then方法指定的回调函数；状态变为rejected，会调用catch方法指定的回调函数，处理这个错误。
+* Promise对象的错误具有“冒泡”性质，会一直向后传递，直到被捕获为止。也就是说，错误总是会被下一个catch语句捕获。
+* Promise.all()与Promise.race()的异同点：
+
+    * Promise.all()与Promise.race()都接受一个Promise对象数组
+    * Promise.all()的入参数组里全部Promise对象返回resolved，才会返回resolved，只要有任意一个Promise对象返回rejected，就会返回rejected。
+    * Promise.race()的入参数组里只要有任意一个对象返回resolved，就会返回resolved，全部Promise对象返回rejected，才会返回rejected。
+
+* 非ES6提供的两个API，`Promise.done()`与`Promise.finally()`
+
+## Async函数
+
+>async函数就是Generator函数的语法糖,方便异步操作
+
+### 特点
+
+* 语法糖：sync函数就是将Generator函数的星号（*）替换成async，将yield替换成await。
+* 内置执行器：async函数自带执行器，与普通函数一样，执行只需要一行，不需要Generator函数那样使用next执行。
+* 更好的语义：async和await，比起星号和yield，语义更清楚了。async表示函数里有异步操作，await表示紧跟在后面的表达式需要等待结果。
+* 更广的适用性：yield命令后面只能是Thunk函数或Promise对象，而async函数的await命令后面，可以是Promise对象和原始类型的值（数值、字符串和布尔值，但这时等同于同步操作）。
+* 返回值是Promise：async函数的返回值是Promise对象，这比Generator函数的返回值是Iterator对象方便多了。你可以用then方法指定下一步的操作。    
 
 
