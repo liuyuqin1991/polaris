@@ -22,6 +22,7 @@
 * [寒冬中的前端社招面试题](https://juejin.im/post/5c8f30606fb9a070ef60996d)
 * [如何在JavaScript面试中过五关斩六将？](https://mp.weixin.qq.com/s/hon5mR--sXxaE-TbDOlEHw)
 * [400 道前端面试题！阿里、头条、网易等 19 家大厂面经全公开！](https://mp.weixin.qq.com/s/iXg1Sadz2yQ-rWQfstVW7g)
+* [一名【合格】前端工程师的自检清单](https://juejin.im/post/5cc1da82f265da036023b628)
 
 
 ## 后端篇

@@ -212,6 +212,7 @@
 * [Vue CLI 3 配置中 Modern mode 是什么](https://mp.weixin.qq.com/s/X_kl6AJ0Q_9BJk0_eRSM1w)
 * [Vue高版本中一些新特性的使用](https://github.com/masterkong/blog/issues/7)
 * [尤雨溪：Vue 3.0 计划](https://juejin.im/post/5bb719b9f265da0ab915dbdd)
+* [面试官：自己搭建过vue开发环境吗？](https://juejin.im/post/5cc55c336fb9a032086dd701)
 
 
 ## **总结**
@@ -235,6 +236,7 @@
 * [2018年值得关注的10大JavaScript动画库](https://www.zcfy.cc/article/10-javascript-animation-libraries-to-follow-in-2018)
 * [最全最好用的动效落地方法、都帮你总结好了（上）](https://zhuanlan.zhihu.com/p/34501702)
 * [最全最好用的动效落地方法、都帮你总结好了（下）](https://zhuanlan.zhihu.com/p/34815524)
+* [可能是最全的前端动效库汇总](https://juejin.im/post/5cc089eae51d456e7d189f9d)
 * [2017前端性能优化清单](https://segmentfault.com/a/1190000008132322)
 * [2018年3月前端知识集锦](https://juejin.im/post/5abb22925188255c4c1050e0)
 * [2017年Web前端技术综述](https://blog.csdn.net/napolunyishi/article/details/79176176)
