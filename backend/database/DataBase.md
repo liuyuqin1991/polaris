@@ -5,3 +5,4 @@
 - [MySQL索引优化看这篇文章就够了！](https://mp.weixin.qq.com/s/FCLaeWJQ0tlCegQD9iA2iw)
 - [10分钟梳理MySQL知识点：揭秘亿级高并发数据库调优与最佳实践法则](https://mp.weixin.qq.com/s/RYIiHAHHStIMftQT6lQSgA)
 - [通过MySQL存储原理来分析排序和锁](https://mp.weixin.qq.com/s/Wc6Gw6S5xMy2DhTCrogxVQ)
+- [技术经理：求求你，别再乱改数据库连接池的大小了！](https://mp.weixin.qq.com/s/Ucp1eXc0CVbFmbvMdmEjkw)（连接数 = ((核心数 * 2) + 有效磁盘数)）
