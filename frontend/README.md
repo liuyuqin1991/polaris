@@ -137,6 +137,9 @@
 * [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
 * [十个案例学会 React Hooks](https://github.com/happylindz/blog/issues/19)
 * [深入了解React，从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/WiRUFWmsq-FSudtSCld6Fg)
+* [React Hooks高仿B站Web移动端直播](https://juejin.im/post/5ccc59a7e51d453b696acc0c)
+* [深入React fiber 链表和DFS](https://zhuanlan.zhihu.com/p/57856350)
+* [为什么 'XX' 不是一个 Hooks API?](https://overreacted.io/zh-hans/why-isnt-x-a-hook/)
 
 ## **webpack**
 
