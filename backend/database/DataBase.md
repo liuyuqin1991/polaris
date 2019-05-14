@@ -6,3 +6,4 @@
 - [10分钟梳理MySQL知识点：揭秘亿级高并发数据库调优与最佳实践法则](https://mp.weixin.qq.com/s/RYIiHAHHStIMftQT6lQSgA)
 - [通过MySQL存储原理来分析排序和锁](https://mp.weixin.qq.com/s/Wc6Gw6S5xMy2DhTCrogxVQ)
 - [技术经理：求求你，别再乱改数据库连接池的大小了！](https://mp.weixin.qq.com/s/Ucp1eXc0CVbFmbvMdmEjkw)（连接数 = ((核心数 * 2) + 有效磁盘数)）
+- [超全面MySQL语句加锁分析（中篇）](https://mp.weixin.qq.com/s/ODbju9fjB5QFEN8IIYp__A)

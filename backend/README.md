@@ -12,7 +12,7 @@ Java基础 | [基础相关](./basic) |[算法](./basic/Algorithm.md)
 |||[I/O](./basic/IO.md)
 |||[并发](./basic/Concurrency.md)
 数据库 | |[数据库](./database/DataBase.md)
-web基础 |
+web基础 |[基础相关](./web)|[网络协议](./web/NetworkProtocol.md)
 Web框架相关 |基础框架|[SpringMVC](./framework/SpringMVC.md)
 ||进阶框架|[SpringBoot](./framework/SpringBoot.md)
 缓存相关 | [缓存](./cache) |[Redis](./cache/Redis.md)
