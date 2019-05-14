@@ -553,3 +553,4 @@
 * [图解 Map、Reduce 和 Filter 数组方法](https://juejin.im/post/5caf030d6fb9a068736d2d7c)
 * [基于色键技术的纯客户端实时蒙版弹幕](https://github.com/parksben/masking-danmaku-demo/blob/master/how-to-implement-masking-danmaku.md)
 * [前端应该知道的web登录](https://juejin.im/post/5cc3bcb0f265da03681463a0)
+* [Chrome运行时性能瓶颈分析](https://juejin.im/post/5cd15712e51d453a393af4c5)
