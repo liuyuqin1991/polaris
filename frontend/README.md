@@ -522,7 +522,6 @@
 * [深谈require和import](https://blog.csdn.net/qq_28702545/article/details/54892562)
 * [如何编写 Typescript 声明文件](https://juejin.im/post/5bc406795188255c451ed3b3)
 * [ESLint 工作原理探讨](https://zhuanlan.zhihu.com/p/53680918)
-* [TypeScript简介全集](http://blog.ayqy.net/)
 * [其实你并不懂 Unicode](https://zhuanlan.zhihu.com/p/53714077)
 * [谈谈代理](https://github.com/rainjay/blog/issues/9)
 * [你不知道的“隐身斗篷”](https://mp.weixin.qq.com/s/M_8wUHSnaHCEr7v8ic2N0Q)
