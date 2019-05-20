@@ -290,8 +290,8 @@
 * [【本周项目】1.12-1.18](https://mp.weixin.qq.com/s/OX38ivfViUQOty1GcdShaA)
 * [【本周项目】1.19-1.25](https://mp.weixin.qq.com/s/zdmCeV0GixKhWR4lfMQPoA)
 * [【本周项目】1.26-2.1](https://mp.weixin.qq.com/s/JDYk-f-ZmzH9qLGWXbw53A)
-* [【本周项目】2.2-2.8](过年休息)
-* [【本周项目】2.9-2.15](过年休息)
+* [【本周项目】2.2-2.8（过年休息）]
+* [【本周项目】2.9-2.15（过年休息）]
 * [【本周项目】2.16-2.22](https://mp.weixin.qq.com/s/djeC95ZEJU_qHi375vNXEA)
 * [【本周项目】2.23-3.1](https://mp.weixin.qq.com/s/C0thWSPXD4fG_ZTj_90VVQ)
 * [【本周项目】3.2-3.8](https://mp.weixin.qq.com/s/k-n7ZRTP5MIeE5GKDrEj4Q)
@@ -316,6 +316,14 @@
     * **[Editor.js](https://github.com/codex-team/editor.js)**：Editor.js 是一个 Block-Styled 的编辑器。块是结构单元，例如段落、标题、图像、视频等等都是“块”。
     * **[Zhui](https://github.com/zhui-team/zhui)**：Zhui 是一款带有中国风的 React 组件库。
     * **[water.css](https://github.com/kognise/water.css)**：可以用HTML 写一个简单的页面，而又不用写繁杂的CSS。
+
+* [【本周项目】4.6-4.12](https://mp.weixin.qq.com/s/mKWCAQBUC2sHgCb-9UbhlA)
+* [【本周项目】4.13-4.19](https://mp.weixin.qq.com/s/DZ5CrLXQ6QzqxYrI2-5KpQ)
+* [【本周项目】4.13-4.19（休息）]
+* [【本周项目】4.20-4.26（休息）]
+* [【本周项目】4.27-5.3（休息）]
+* [【本周项目】5.4-5.10](https://mp.weixin.qq.com/s/LgJPHCMp7XfhfRq4MrEpfQ)
+* [【本周项目】5.11-5.17](https://mp.weixin.qq.com/s/xpgZbxui6KAcrnoI3Tp7Lg)
 
 ## **jquery**
 

@@ -299,6 +299,7 @@ Github：
 * [TypeScript 和 Babel：一场美丽的结合](https://juejin.im/post/5c822e426fb9a04a0a5ffb49)
 * [TypeScript - 一种思维方式](https://zhuanlan.zhihu.com/p/63346965)
 * [TypeScript简介全集](http://blog.ayqy.net/)
+* [TypeScript —— 面向编辑器编程](https://zhuanlan.zhihu.com/p/62292091)
 
 **16.PWA**
 
