@@ -170,6 +170,8 @@
 * [Webpack 打包含动态加载的类库](http://scarletsky.github.io/2019/02/19/webpack-bundling-libraries-with-dynamic-imports)
 * [Webapck4+Babel7优化70%速度](https://mp.weixin.qq.com/s/si4yq-M_JS0DqedAhTlKng)
 * [Webpack 构建速度优化](https://mp.weixin.qq.com/s/FS8TxvQo1Vf_X8TYsEUwzA)
+* [Webpack 是怎样运行的?（一）](https://zhuanlan.zhihu.com/p/52826586)
+* [Webpack 是怎样运行的?（二）](https://zhuanlan.zhihu.com/p/53044886)
 
 ## **gulp**
 
