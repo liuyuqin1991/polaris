@@ -140,6 +140,7 @@
 * [React Hooks高仿B站Web移动端直播](https://juejin.im/post/5ccc59a7e51d453b696acc0c)
 * [深入React fiber 链表和DFS](https://zhuanlan.zhihu.com/p/57856350)
 * [为什么 'XX' 不是一个 Hooks API?](https://overreacted.io/zh-hans/why-isnt-x-a-hook/)
+* [可能是你需要的react + typescript 50条规范和经验](https://juejin.im/post/5ce24f8ae51d45106477bd45)
 
 ## **webpack**
 
