@@ -329,6 +329,18 @@
 * [【本周项目】5.4-5.10](https://mp.weixin.qq.com/s/LgJPHCMp7XfhfRq4MrEpfQ)
 * [【本周项目】5.11-5.17](https://mp.weixin.qq.com/s/xpgZbxui6KAcrnoI3Tp7Lg)
 
+    * **[RCRE](https://github.com/andycall/RCRE)**：RCRE 是一个简化复杂工程的前端库，可以帮助我们解决上面的问题。
+    * **[Comlink](https://github.com/GoogleChromeLabs/comlink)**：Comlink 是 Chrome 团队出的帮助更好使用 WebWorker 的工具。
+    * **[unform](https://github.com/Rocketseat/unform)**：unform 是一个以性能为中心的库，可以帮助开发者在 React 中利用不受控组件方式和 React Hooks 创建漂亮的表单。
+    * **[react-tetris](https://github.com/chvin/react-tetris)**：使用 React、Redux、Immutable 等技术开发一款俄罗斯方块。
+
+* [【本周项目】5.18-5.24](https://mp.weixin.qq.com/s/RO0hkPXldtzrE4rG8uZCJQ)
+
+    * **[Terminus](https://github.com/Eugeny/terminus)**：Terminus 是一个高度可配置的终端，可以运行在 Windows、macOS 和 Linux。具有支持配置主题和颜色、自定义快捷键、切分面板等特点。
+    * **[SCAR](https://github.com/cloudkj/scar)**：一键在 AWS 上部署包含 HTTPS、全局 CDN 和自定义域名等功能的静态网站。
+    * **[hacker-laws-zh](https://github.com/nusr/hacker-laws-zh)**：对开发人员有用的定律、理论、原则和模式。
+    * **[WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation)**：WebGL-Fluid-Simulation 是使用 WebGL 实现的流体特效。
+
 ## **jquery**
 
 **liuyuqin1991<贡献者>博客资源**
