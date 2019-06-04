@@ -6,6 +6,7 @@
 * [Git使用入门](https://mp.weixin.qq.com/s/xoyQ4TzVKLQb2VjZJLUqFQ)
 * [15分钟成为 GIT 专家](https://www.jianshu.com/p/c221f99f0bfd)
 * [Git项目管理](https://www.yuque.com/docs/share/cc5f2761-c72b-420e-bd26-448d645691ef)
+* [30分钟让你掌握Git的黑魔法](https://mp.weixin.qq.com/s/2SKc8zZSwv_taeLhy8_nuw)
 
 ## **程序人生**
 

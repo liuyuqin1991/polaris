@@ -74,6 +74,7 @@
 * [剖析CSS-Trick，为我所用](https://mp.weixin.qq.com/s/6H8WU6B5p4t2mJKeRaxD1A)
 * [fixed 定位失效 | 不受控制的 position:fixed](https://github.com/chokcoco/iCSS/issues/24)
 * [探秘 flex 上下文中神奇的自动 margin](https://juejin.im/post/5ce60afde51d455ca04361b1)
+* [从原型图到成品：步步深入 CSS 布局](https://juejin.im/post/5cebb52651882530be7b16a4)
 
 ## **react**
 
@@ -143,6 +144,7 @@
 * [为什么 'XX' 不是一个 Hooks API?](https://overreacted.io/zh-hans/why-isnt-x-a-hook/)
 * [可能是你需要的react + typescript 50条规范和经验](https://juejin.im/post/5ce24f8ae51d45106477bd45)
 * [在 React Hooks 中如何请求数据？](https://juejin.im/post/5c98fb35518825157172acc6)
+* [在 React 组件中使用 Refs 指南](https://segmentfault.com/a/1190000019277029)
 
 ## **webpack**
 
@@ -372,6 +374,13 @@
 * [megalo -- 网易考拉小程序解决方案](https://mp.weixin.qq.com/s/n5nUGdOO-JxkPsM7G7UCAQ)
 * [5款小程序框架全面测评](https://aotu.io/notes/2019/03/12/mini-program-framework-full-review/)
 
+## **其他框架**
+
+**站外资源**
+
+* [Chameleon 开放跨端扩展标准协议](https://mp.weixin.qq.com/s/nI2XAIXmH-zZiHmDg2LqZw)
+* [前端能力中台化之路—Fusion Design 成长史](https://mp.weixin.qq.com/s/LJoFj_XbaOqpiiGL1xevVg)
+
 ## **其他前端资源**
 
 **liuyuqin1991<贡献者>博客资源**
@@ -581,3 +590,5 @@
 * [Javascript 中 Array.push 要比 Array.concat 快 945 倍！](https://juejin.im/post/5cd67fb9f265da037129bb64)
 * [你真的了解 Cookie 和 Session 吗](https://juejin.im/post/5cd9037ee51d456e5c5babca)
 * [正则表达式不要背](https://juejin.im/post/5cdcd42551882568651554e6)
+* [拆解 JavaScript 中的异步模式](https://zhuanlan.zhihu.com/p/67815990)
+* [JavaScript 究竟是如何工作的？（第一部分）](https://chorer.github.io//2019/05/10/Trs-Javascript%20%E7%A9%B6%E7%AB%9F%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84%EF%BC%9F%EF%BC%88%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%89/)   
