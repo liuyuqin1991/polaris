@@ -592,3 +592,4 @@
 * [正则表达式不要背](https://juejin.im/post/5cdcd42551882568651554e6)
 * [拆解 JavaScript 中的异步模式](https://zhuanlan.zhihu.com/p/67815990)
 * [JavaScript 究竟是如何工作的？（第一部分）](https://chorer.github.io//2019/05/10/Trs-Javascript%20%E7%A9%B6%E7%AB%9F%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84%EF%BC%9F%EF%BC%88%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%89/)   
+* [页面图片类型选择优化](https://juejin.im/post/5cf5ea646fb9a07f042034b9)
