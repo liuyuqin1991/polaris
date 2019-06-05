@@ -326,10 +326,22 @@
 
 * [【本周项目】4.6-4.12](https://mp.weixin.qq.com/s/mKWCAQBUC2sHgCb-9UbhlA)
 * [【本周项目】4.13-4.19](https://mp.weixin.qq.com/s/DZ5CrLXQ6QzqxYrI2-5KpQ)
+
+    * **[React95](https://github.com/arturbien/React95)**：Windows 95 风格的 React 组件库。
+    * **[git-tips](https://github.com/521xueweihan/git-tips)**：列举了常用的 Git 命令和一些小技巧。
+    * **[Gridea](https://github.com/getgridea/gridea)**：一个静态博客写作客户端。
+
 * [【本周项目】4.13-4.19（休息）]
 * [【本周项目】4.20-4.26（休息）]
 * [【本周项目】4.27-5.3（休息）]
 * [【本周项目】5.4-5.10](https://mp.weixin.qq.com/s/LgJPHCMp7XfhfRq4MrEpfQ)
+
+    * **[Terminal](https://github.com/microsoft/terminal)**：Windows Terminal 是微软在 Build 大会上推出的新的命令行工具，提供多标签、分割窗口、快捷键等功能，支持 PowerShell、Cmd、WSL 和 SSH 等命令行程序，简化了开发者工作流程。
+    * **[flutter_web](https://github.com/flutter/flutter_web)**：使用 Flutter 编写 Web。
+    * **[AMis](https://github.com/baidu/amis)**：百度推出的一种基于特定 JSON 格式生成管理信息系统页面的工具，只需配置 JSON 文件便可生成页面。
+    * **[Commit messages guide](https://github.com/RomuloOliveira/commit-messages-guide)**：一个了解 commit 信息重要性和如何更好地编写它的指南。
+    * **[cssfx](https://github.com/jolaleye/cssfx)**：看到什么喜欢的 CSS 特效，一键复制即可拥有。
+
 * [【本周项目】5.11-5.17](https://mp.weixin.qq.com/s/xpgZbxui6KAcrnoI3Tp7Lg)
 
     * **[RCRE](https://github.com/andycall/RCRE)**：RCRE 是一个简化复杂工程的前端库，可以帮助我们解决上面的问题。
