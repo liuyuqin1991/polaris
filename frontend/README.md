@@ -303,6 +303,7 @@
 * [【本周项目】2.23-3.1](https://mp.weixin.qq.com/s/C0thWSPXD4fG_ZTj_90VVQ)
 * [【本周项目】3.2-3.8](https://mp.weixin.qq.com/s/k-n7ZRTP5MIeE5GKDrEj4Q)
 * [【本周项目】3.9-3.15](https://mp.weixin.qq.com/s/RqgmqVS_L16L-PC0m9PQTQ)
+
 * [【本周项目】3.16-3.22](https://mp.weixin.qq.com/s/JZ1l8X0bUhPI1Cl_vcYulQ)
 
     * **[lax.js](https://github.com/alexfoxy/laxxx)**：lax.js 是一个简单轻量的 Javascript 插件，当滚动页面时可以帮助创建流畅漂亮的动画。
@@ -325,6 +326,12 @@
     * **[water.css](https://github.com/kognise/water.css)**：可以用HTML 写一个简单的页面，而又不用写繁杂的CSS。
 
 * [【本周项目】4.6-4.12](https://mp.weixin.qq.com/s/mKWCAQBUC2sHgCb-9UbhlA)
+
+    * **[YApi](https://github.com/YMFE/yapi)**： YApi 是一个可本地部署的、打通前后端及 QA 的、可视化的接口管理平台。
+    * **[Tailwind CSS](https://github.com/tailwindcss/tailwindcss)**：Tailwind CSS 是一个用于快速 UI 开发的 utility-first 的 CSS 框架。
+    * **[El Grapho](https://github.com/ericdrowell/ElGrapho)**：El Grapho 是一个高性能的 WebGL 图形数据可视化引擎，可以在任何现代浏览器中支持数百万个交互式 node 和 edge。
+    * **[nndl.github.io](https://github.com/nndl/nndl.github.io)**：《神经网络与深度学习》。
+
 * [【本周项目】4.13-4.19](https://mp.weixin.qq.com/s/DZ5CrLXQ6QzqxYrI2-5KpQ)
 
     * **[React95](https://github.com/arturbien/React95)**：Windows 95 风格的 React 组件库。
