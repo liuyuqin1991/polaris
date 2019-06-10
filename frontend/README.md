@@ -363,6 +363,12 @@
     * **[hacker-laws-zh](https://github.com/nusr/hacker-laws-zh)**：对开发人员有用的定律、理论、原则和模式。
     * **[WebGL-Fluid-Simulation](https://github.com/PavelDoGreat/WebGL-Fluid-Simulation)**：WebGL-Fluid-Simulation 是使用 WebGL 实现的流体特效。
 
+* [【本周项目】5.25-5.31](https://mp.weixin.qq.com/s/xD0opg3K_-07ZYj6rhcN7w)
+
+    * **[Zdog](https://github.com/metafizzy/zdog)**：Zdog 是基于 <canvas> 和 SVG 的 3D JavaScript 引擎。使用 Zdog，开发者可以在Web 上设计和渲染简单的 3D 模型。 Zdog 是一个伪 3D 引擎，即几何形状存在于 3D 空间中，但呈现为扁平形状。
+    * **[imgsquash](https://github.com/eashish93/imgsquash)**：imgsquash 是用 node、react 和 next.js 写的图片压缩工具，易于部署为微服务。
+    * **[youtube-dl-interactive](https://github.com/synox/youtube-dl-interactive)**：youtube-dl 是款十分强大的视频下载工具，不过交互方式是命令行，参数又贼多，youtube-dl-interactive 将输入参数的过程转变为简单的命令行交互方式，简化了输入复杂参数的过程。
+
 ## **jquery**
 
 **liuyuqin1991<贡献者>博客资源**
