@@ -75,6 +75,7 @@
 * [fixed 定位失效 | 不受控制的 position:fixed](https://github.com/chokcoco/iCSS/issues/24)
 * [探秘 flex 上下文中神奇的自动 margin](https://juejin.im/post/5ce60afde51d455ca04361b1)
 * [从原型图到成品：步步深入 CSS 布局](https://juejin.im/post/5cebb52651882530be7b16a4)
+* [更好的纯CSS滚动指示器技术实现](https://juejin.im/entry/5cff43c46fb9a07f0219f6c4)
 
 ## **react**
 
@@ -253,7 +254,6 @@
 * [JavaScript 2018 中即将迎来的新功能](https://github.com/xitu/gold-miner/blob/master/TODO1/whats-coming-up-in-javascript-2018-async-generators-better-regex.md)
 * [2018 年前端开发回顾](https://juejin.im/post/5c13760ee51d4545ca722d45)
 * [关于JavaScript, NPM官方发布了2018年的回顾以及2019年的预测](https://segmentfault.com/a/1190000017479339)
-* [多端统一开发框架 - Taro](https://aotu.io/notes/2018/06/07/Taro/)
 * [给2019前端的5个建议](https://zhuanlan.zhihu.com/p/55357377)
 * [2019 前端性能优化年度总结 — 第一部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-1.md)
 * [2019 前端性能优化年度总结 — 第二部分](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-2.md)
@@ -264,6 +264,7 @@
 * [ES5 to ESNext —  自 2015 以来 JavaScript 新增的所有新特性](https://zhuanlan.zhihu.com/p/59535309)
 * [Vuex、Flux、Redux、Redux-saga、Dva、MobX](https://zhuanlan.zhihu.com/p/53599723)
 * [基于Redux/Vuex/MobX等库的通用化状态OOP](https://mp.weixin.qq.com/s/ML4aODMXDwfQWlb-EjfXbg)
+* [关于移动端适配，你必须要知道的](https://juejin.im/post/5cddf289f265da038f77696c)
 
 ## **github增速最快项目（暂以时间分类）**
 
@@ -380,7 +381,6 @@
 * [jquery-ui 拖动列表 与 拖拽——2016-08-26](https://blog.csdn.net/liuyuqin1991/article/details/52326398)
 * [jquery图片热区jquery.image-maps——2016-08-03](https://blog.csdn.net/liuyuqin1991/article/details/52104994)
 
-
 ## **小程序**
 
 **站外资源**
@@ -403,8 +403,11 @@
 
 **站外资源**
 
+* [多端统一开发框架 - Taro](https://aotu.io/notes/2018/06/07/Taro/)
+* [Chameleon跨端框架—一个理想主义团队的开源作品](https://cmljs.org/doc/quick_start/quick_start.html)
 * [Chameleon 开放跨端扩展标准协议](https://mp.weixin.qq.com/s/nI2XAIXmH-zZiHmDg2LqZw)
 * [前端能力中台化之路—Fusion Design 成长史](https://mp.weixin.qq.com/s/LJoFj_XbaOqpiiGL1xevVg)
+* [从头实现一个koa框架](https://zhuanlan.zhihu.com/p/35040744)
 
 ## **其他前端资源**
 
@@ -469,7 +472,6 @@
 * [十倍效能提升——Web 基础研发体系的建立](http://www.cnblogs.com/sskyy/p/8613393.html)
 * [WebSocket 学习：基于socket.io实现简单多人聊天室](https://segmentfault.com/a/1190000011538416)
 * [什么时候不该使用es6箭头函数](https://segmentfault.com/a/1190000007074846)
-* [从头实现一个koa框架](https://zhuanlan.zhihu.com/p/35040744)
 * [热爱 JavaScript，但是讨厌 CSS ？](https://juejin.im/post/5aba0d37518825556a72708a)
 * [前端布局基础概述](https://mp.weixin.qq.com/s/-LcNZWFFty2lWuND6uuNNA)
 * [Chrome 调试工具使用小技巧](http://mp.weixin.qq.com/s/Nyrav5fx_pqgSDEXNRb6Ug)
@@ -587,7 +589,6 @@
 * [JavaScript工程项目的一系列最佳实践策略](https://github.com/elsewhencode/project-guidelines/blob/master/README-zh.md)
 * [深入浅出 Javascript Decorators 和 AOP 编程](https://github.com/rainjay/blog/issues/5)
 * [动效不该难](https://www.zcool.com.cn/article/ZODI5NjYw.html)
-* [Chameleon跨端框架—一个理想主义团队的开源作品](https://cmljs.org/doc/quick_start/quick_start.html)
 * [GraphQL入门指南](https://mp.weixin.qq.com/s/oQ4aT1gmQsbwt8K6U3XlBQ)
 * [Lerna包管理](https://www.yuque.com/docs/share/b8013b14-1c3a-420a-bcf1-e75ab4553a37)
 * [前端 Form 的表单的一个通用解决方案](https://www.yuque.com/docs/share/8238bd4e-cfb2-42de-afa7-bc2b2f2ab0dc)
