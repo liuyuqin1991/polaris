@@ -303,7 +303,17 @@
 * [【本周项目】2019.2.16-2019.2.22](https://mp.weixin.qq.com/s/djeC95ZEJU_qHi375vNXEA)
 * [【本周项目】2019.2.23-2019.3.1](https://mp.weixin.qq.com/s/C0thWSPXD4fG_ZTj_90VVQ)
 * [【本周项目】2019.3.2-2019.3.8](https://mp.weixin.qq.com/s/k-n7ZRTP5MIeE5GKDrEj4Q)
+
+    * **[Fish Redux](https://github.com/alibaba/fish-redux)**：Fish Redux 是一个基于 Redux 状态管理的组装式 Flutter 框架，它适用于构建中大型应用。 
+    * **[code-server](https://github.com/cdr/code-server)**：code-server 可以让 VSCode 运行在远程服务器中，并且使用浏览器访问。
+    * **[Automatic App Landing Page](https://github.com/emilbaehr/automatic-app-landing-page)**：Automatic App Landing Page 是一个 Jekyll 主题、用于为移动应用自动生成和部署登录页网站的工具。
+
 * [【本周项目】2019.3.9-2019.3.15](https://mp.weixin.qq.com/s/RqgmqVS_L16L-PC0m9PQTQ)
+
+    * **[Firefox Send](https://github.com/mozilla/send)**：Firefox 出品的端对端加密分享工具。
+    * **[React-three-fiber](https://github.com/drcmda/react-three-fiber)**：React-three-fiber 是一个用于 Three.js 的小型 React 渲染器。
+    * **[type-fest](https://github.com/sindresorhus/type-fest)**：一组 TypeScript 的基本类型。
+    * **[Traduora](https://github.com/traduora/traduora)**：面向团队使用的翻译管理平台。
 
 * [【本周项目】2019.3.16-2019.3.22](https://mp.weixin.qq.com/s/JZ1l8X0bUhPI1Cl_vcYulQ)
 

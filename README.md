@@ -9,9 +9,8 @@
 <table align="center">
     <thread>
         <th><a href="/backend/README.md">后端</a></th>
-        <th><a href="/frontend/README.md">前端</a></th>
-        <th><a href="/android/README.md">Android</a></th>
-        <th><a href="/ios/README.md">iOS</a></th>
+        <th><a href="/frontend/README.md">Web前端</a></th>
+        <th><a href="/mobile/README.md">移动端</a></th>
         <th><a href="/interview/README.md">面试</a></th>
         <th><a href="/others/README.md">其他</a></th>
     </thread>
