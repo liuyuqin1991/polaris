@@ -42,3 +42,4 @@
 * [SVG滤镜对图片调色](https://github.com/sundway/blog/issues/14)
 * [阿里的这些开源软件，你都用过吗？](https://maimai.cn/article/detail?fid=858178468&efid=xYpW-8j3kwvnVTHL2BlNTw)
 * [除了 996.ICU，GitHub 上还有哪些奇葩项目？](https://mp.weixin.qq.com/s/QE0LJhWwsbd2Ev6IIBfnPw)
+* [利兄：我一直以为自己擅长PPT，直到见到这些神技......](https://zhuanlan.zhihu.com/p/28379031)
