@@ -14,13 +14,11 @@ Github:
 
 其他教程：
 
-<http://nqdeng.github.io/7-days-nodejs/>
-
-<http://www.imooc.com/learn/348>
+* [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs)
 
 **2.Npm**
 
-NPM（node package manager）是Node.js的包管理和分发工具。它类似于PHP的Composer，Ruby的gem，Python的pip，Java的Maven……它可以让JavaScript开发者能够更加轻松的共享代码和共用代码片段，并且通过npm管理你分享的代码也很方便快捷和简单。截至目前最新的稳定版 npm 是 3.3.12。
+NPM（node package manager）是Node.js的包管理和分发工具。它类似于PHP的Composer，Ruby的gem，Python的pip，Java的Maven……它可以让JavaScript开发者能够更加轻松的共享代码和共用代码片段，并且通过npm管理你分享的代码也很方便快捷和简单。
 
 Github:
 
@@ -38,9 +36,7 @@ Github:
 
 **3.Gulp**
 
-gulp是基于Nodejs的自动任务运行器， 能自动化地完成
-javascript、coffee、sass、less、html/image、css
-等文件的测试、检查、合并、压缩、格式化、浏览器自动刷新、部署文件生成，并监听文件在改动后重复指定的这些步骤。在实现上，它借鉴了Unix操作系统的管道（pipe）思想，前一级的输出，直接变成后一级的输入，使得在操作上非常简单。
+gulp是基于Nodejs的自动任务运行器， 能自动化地完成javascript、coffee、sass、less、html/image、css等文件的测试、检查、合并、压缩、格式化、浏览器自动刷新、部署文件生成，并监听文件在改动后重复指定的这些步骤。在实现上，它借鉴了Unix操作系统的管道（pipe）思想，前一级的输出，直接变成后一级的输入，使得在操作上非常简单。
 
 Github:
 
@@ -56,11 +52,9 @@ Github:
 
 其他教程：
 
-<http://www.cnblogs.com/2050/p/4198792.html>
-
-<http://www.tuicool.com/articles/FJVNZf>
-
-<https://www.cnblogs.com/Darren_code/p/gulp.html>
+* [前端构建工具gulpjs的使用介绍及技巧](http://www.cnblogs.com/2050/p/4198792.html)
+* [前端构建工具gulp入门教程](http://www.tuicool.com/articles/FJVNZf)
+* [gulp使用小结](https://www.cnblogs.com/Darren_code/p/gulp.html)
 
 **4.Bower**
 
@@ -98,7 +92,7 @@ Github:
 
 其他教程：
 
-<https://segmentfault.com/a/1190000002971135>
+* [bower简明入门教程](https://segmentfault.com/a/1190000002971135)
 
 **5.Browserify­**
 
@@ -118,11 +112,9 @@ Github:
 
 学习资料
 
-<http://www.tuicool.com/articles/IFvQ3qv>
-
-<https://segmentfault.com/a/1190000002941361>
-
-<http://www.cnblogs.com/liulangmao/p/4920534.html>
+* [browserify使用手册](http://www.tuicool.com/articles/IFvQ3qv)
+* [前端模块及依赖管理的新选择：Browserify](https://segmentfault.com/a/1190000002941361)
+* [browserify使用手册](http://www.cnblogs.com/liulangmao/p/4920534.html)
 
 **6.Browsersync**
 
@@ -135,7 +127,7 @@ Github:
 
 教程：
 
-<http://www.browsersync.cn/>
+* [Browsersync中文网](http://www.browsersync.cn/)
 
 **7.Less-.less,Saas-.scss**
 
@@ -175,9 +167,7 @@ ECMAScript 6
 
 教程：
 
-<http://es6.ruanyifeng.com/>
-
-<https://segmentfault.com/a/1190000004365693#articleHeader6>
+* [阮一峰ECMAScript 6 入门](http://es6.ruanyifeng.com)
 
 **9.Babel**
 
@@ -197,9 +187,8 @@ Github:
 
 其他：
 
-[【第1464期】babel7使用手册](https://mp.weixin.qq.com/s/AURDiWwspdfRExopNf4YLQ) 
-
-[【第1378期】 一口(很长的)气了解 Babel](https://github.com/easonyq/easonyq.github.io/blob/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/others/babel.md)
+* [babel7使用手册](https://mp.weixin.qq.com/s/AURDiWwspdfRExopNf4YLQ) 
+* [一口(很长的)气了解 Babel](https://github.com/easonyq/easonyq.github.io/blob/master/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/others/babel.md)
 
 **10.promise**
 
@@ -252,7 +241,7 @@ Yarn 是一个依赖管理工具。它能够管理你的代码，并与全世界
 
 其他教程：
 
-<http://mp.weixin.qq.com/s/FnCa0wqdHKQN4syrPIPSAA>
+* [Yarn：一个新的JavaScript包管理器](http://mp.weixin.qq.com/s/FnCa0wqdHKQN4syrPIPSAA)
 
 **14.ESLint**
 
@@ -266,7 +255,7 @@ Github：
 
 <https://eslint.org/>
 
-教程：
+中文网教程：
 
 <http://eslint.cn/>
 
@@ -309,6 +298,7 @@ PWA（Progressive Web App）是一种理念，使用多种技术来增强web app
 
 **17.Flutter**
 
+Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。 Flutter可以与现有的代码一起工作。在全世界，Flutter正在被越来越多的开发者和组织使用，并且Flutter是完全免费、开源的。
 
 相关资料：
 
