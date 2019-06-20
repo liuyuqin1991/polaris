@@ -30,17 +30,11 @@ Github:
 
 <https://docs.npmjs.com/>
 
-官方教程：
-
-<https://docs.npmjs.com/getting-started>
 
 其他教程：
 
-<https://segmentfault.com/a/1190000005799797>
-
-<http://www.cnblogs.com/kelsen/p/4947859.html>
-
-<http://www.runoob.com/nodejs/nodejs-npm.html>
+* [npm入门文档](https://segmentfault.com/a/1190000005799797)
+* [你所需要的npm知识储备都在这了](https://juejin.im/post/5d08d3d3f265da1b7e103a4d)
 
 **3.Gulp**
 
