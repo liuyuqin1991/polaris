@@ -266,6 +266,7 @@ liuyuqin1991<贡献者>博客资源
 * [Vuex、Flux、Redux、Redux-saga、Dva、MobX](https://zhuanlan.zhihu.com/p/53599723)
 * [基于Redux/Vuex/MobX等库的通用化状态OOP](https://mp.weixin.qq.com/s/ML4aODMXDwfQWlb-EjfXbg)
 * [关于移动端适配，你必须要知道的](https://juejin.im/post/5cddf289f265da038f77696c)
+* [哪些技术会决定前端开发者的未来发展？](https://juejin.im/post/5d1589c8e51d45776031b02e)
 
 ## **github增速最快项目（暂以时间分类）**
 
