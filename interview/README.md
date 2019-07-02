@@ -4,6 +4,21 @@
 
 ## 前端篇
 
+### 专栏
+
+* [掘金优秀作者-刘小夕](https://juejin.im/user/5c6256596fb9a049bd42c770/posts)
+
+    * 【Step-By-Step高频面试题深入解析】系列
+    * 【面试篇】系列
+    * [这儿有20道大厂面试题等你查收](https://juejin.im/post/5d124a12f265da1b9163a28d)
+
+* [掘金优秀作者-郭东东](https://juejin.im/user/57726622165abd005492ee87/posts)
+
+    * 【中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂】系列
+    * 【JavaScript中的图片处理与合成】系列
+
+### 精选
+
 * [GitHub最全前端资源汇总](https://helloqingfeng.github.io/front-end-index/index.html)
 * [50道 CSS 基础面试题（附答案）](https://juejin.im/entry/5ad2d3bff265da237a4d75dd)
 * [前端笔试题面试题记录（上）](https://juejin.im/post/5aad40e4f265da237f1e12ed)
@@ -15,8 +30,6 @@
 * [2018年6月前端面试经历(中)](https://juejin.im/post/5b3b70ea6fb9a04fe91a5039)
 * [近百高频知识点，十万余字，地表最强前端面试图谱了解下](https://yuchengkai.cn/docs/zh/frontend/)
 * [如何找到一份好的前端开发工作](https://mp.weixin.qq.com/s/Cs3BZEBZEV79hP7qFujOWg)
-* [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)
-* [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(中)](https://juejin.im/post/5c92f499f265da612647b754)
 * [写给初级前端的面试经验](https://mp.weixin.qq.com/s/UD0cuGhJnPzgHkwWlNTzQQ)
 * [五年面世，三年模拟](https://juejin.im/post/5ca0425e51882567ce181037)
 * [寒冬中的前端社招面试题](https://juejin.im/post/5c8f30606fb9a070ef60996d)
@@ -24,8 +37,6 @@
 * [400 道前端面试题！阿里、头条、网易等 19 家大厂面经全公开！](https://mp.weixin.qq.com/s/iXg1Sadz2yQ-rWQfstVW7g)
 * [一名【合格】前端工程师的自检清单](https://juejin.im/post/5cc1da82f265da036023b628)
 * [你要的 React 面试知识点，都在这了](https://juejin.im/post/5cf0733de51d4510803ce34e)
-* [这儿有20道大厂面试题等你查收](https://juejin.im/post/5d124a12f265da1b9163a28d)
-
 
 ## 后端篇
 * [拿下阿里、头条、滴滴的offer后谈谈面试经验（上）](https://mp.weixin.qq.com/s/UNNPuH9aMO0Pw4rY9rhX3Q)
