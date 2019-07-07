@@ -10,6 +10,7 @@
 - [红黑树的理解与Java实现](https://mp.weixin.qq.com/s/j5MF-GFErDIQKdi8nLbN9g)
 - [JDK源码分析-TreeMap(2)](https://mp.weixin.qq.com/s/zTIyKC_rpUh82S3zlf274Q)
 - [Java 堆外内存回收原理](https://mp.weixin.qq.com/s/av8-l9l5CNT_K-SXW7iW8Q)
+- [面试中常考的堆、栈和队列如何理解与应用？](https://mp.weixin.qq.com/s/hVWUbxr-pIeC1CnhM1a06A)
 
 
 
