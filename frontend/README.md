@@ -146,6 +146,7 @@ liuyuqin1991<贡献者>博客资源
 * [可能是你需要的react + typescript 50条规范和经验](https://juejin.im/post/5ce24f8ae51d45106477bd45)
 * [在 React Hooks 中如何请求数据？](https://juejin.im/post/5c98fb35518825157172acc6)
 * [在 React 组件中使用 Refs 指南](https://segmentfault.com/a/1190000019277029)
+* [编写 React 组件的 10 个建议](https://juejin.im/post/5d2013e2518825754a7f125d)
 
 ## **webpack**
 
