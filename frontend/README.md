@@ -634,3 +634,4 @@ liuyuqin1991<贡献者>博客资源
 * [页面图片类型选择优化](https://juejin.im/post/5cf5ea646fb9a07f042034b9)
 * [生动形象解释forEach、filter、map、some、every、find、findIndex、reduce间的区别](https://juejin.im/post/5d08467fe51d451063431814)
 * [前端水印生成方案(网页水印+图片水印)](https://juejin.im/entry/5b55db355188251b11097366)
+* [9种常见的前端跨域解决方案（详解）](https://juejin.im/post/5d1ecb96f265da1b6d404433)
