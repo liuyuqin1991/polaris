@@ -4,3 +4,4 @@
 - [Shell 自动化编译打包](https://blog.csdn.net/liuyuqin1991/article/details/78855230)
 - [Linux下rpm及yum安装jdk](https://blog.csdn.net/hg_harvey/article/details/73824084)
 - [CentOS 7 安装 Jenkins](https://www.cnblogs.com/stulzq/p/9291237.html)
+- [SSL用pem和key文件生成jks文件](https://blog.csdn.net/hfismyangel/article/details/83792992)
