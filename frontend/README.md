@@ -77,6 +77,7 @@ liuyuqin1991<贡献者>博客资源
 * [从原型图到成品：步步深入 CSS 布局](https://juejin.im/post/5cebb52651882530be7b16a4)
 * [更好的纯CSS滚动指示器技术实现](https://juejin.im/entry/5cff43c46fb9a07f0219f6c4)
 * [你所不知道的 CSS 负值技巧与细节](https://juejin.im/post/5d4b8707f265da03a65302bd)
+* [你未必知道的49个CSS知识点](https://juejin.im/post/5d3eca78e51d4561cb5dde12)
 
 ## **react**
 
