@@ -37,6 +37,7 @@
 * [400 道前端面试题！阿里、头条、网易等 19 家大厂面经全公开！](https://mp.weixin.qq.com/s/iXg1Sadz2yQ-rWQfstVW7g)
 * [一名【合格】前端工程师的自检清单](https://juejin.im/post/5cc1da82f265da036023b628)
 * [你要的 React 面试知识点，都在这了](https://juejin.im/post/5cf0733de51d4510803ce34e)
+* [面试招聘：2 年招到 18 个前端教你怎么招人](https://juejin.im/post/5d6f54e9f265da03f66ddf65)
 
 ## 后端篇
 * [拿下阿里、头条、滴滴的offer后谈谈面试经验（上）](https://mp.weixin.qq.com/s/UNNPuH9aMO0Pw4rY9rhX3Q)
