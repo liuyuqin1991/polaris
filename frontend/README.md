@@ -151,6 +151,7 @@ liuyuqin1991<贡献者>博客资源
 * [在 React 组件中使用 Refs 指南](https://segmentfault.com/a/1190000019277029)
 * [编写 React 组件的 10 个建议](https://juejin.im/post/5d2013e2518825754a7f125d)
 * [21个让React 开发更高效更有趣的工具](https://juejin.im/post/5d50a99cf265da03e61b0271)
+* [90行代码，15个元素实现无限滚动](https://juejin.im/post/5d7f80796fb9a06b24434d4e#heading-16)
 
 ## **webpack**
 
