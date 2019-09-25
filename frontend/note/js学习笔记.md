@@ -8,4 +8,4 @@
 * object
 * symbol
 
-* []()
+![](https://github.com/liuyuqin1991/polaris/blob/master/frontend/note/note-images/javascript-type.png)
