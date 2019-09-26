@@ -388,6 +388,8 @@ liuyuqin1991<贡献者>博客资源
     * **[imgsquash](https://github.com/eashish93/imgsquash)**：imgsquash 是用 node、react 和 next.js 写的图片压缩工具，易于部署为微服务。
     * **[youtube-dl-interactive](https://github.com/synox/youtube-dl-interactive)**：youtube-dl 是款十分强大的视频下载工具，不过交互方式是命令行，参数又贼多，youtube-dl-interactive 将输入参数的过程转变为简单的命令行交互方式，简化了输入复杂参数的过程。
 
+* 因周刊内容过多，后续转为月刊，详见 [HelloGitHub](https://hellogithub.com/)
+
 ## **jquery**
 
 liuyuqin1991<贡献者>博客资源

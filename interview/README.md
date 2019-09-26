@@ -17,6 +17,8 @@
     * 【中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂】系列
     * 【JavaScript中的图片处理与合成】系列
 
+* [Github-前端面试每日 3+1<fe-interview>](https://github.com/haizlin/fe-interview)
+
 ### 精选
 
 * [GitHub最全前端资源汇总](https://helloqingfeng.github.io/front-end-index/index.html)
