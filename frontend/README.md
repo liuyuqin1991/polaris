@@ -185,6 +185,7 @@ liuyuqin1991<贡献者>博客资源
 * [Webpack 是怎样运行的?（一）](https://zhuanlan.zhihu.com/p/52826586)
 * [Webpack 是怎样运行的?（二）](https://zhuanlan.zhihu.com/p/53044886)
 * [关于webpack4的14个知识点,童叟无欺](https://juejin.im/post/5cea1e1ae51d4510664d1652)
+* [Webpack 深入浅出之公司级分享总结(内附完整ppt)](https://juejin.im/post/5df884ad6fb9a0164e7f979d#heading-18)
 
 ## **gulp**
 
