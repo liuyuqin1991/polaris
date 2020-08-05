@@ -41,6 +41,7 @@
 * [你要的 React 面试知识点，都在这了](https://juejin.im/post/5cf0733de51d4510803ce34e)
 * [面试招聘：2 年招到 18 个前端教你怎么招人](https://juejin.im/post/5d6f54e9f265da03f66ddf65)
 * [看完跳槽少说涨 5 K，前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
+* [2 年前端面试心路历程（字节跳动、YY、虎牙、BIGO）](https://mp.weixin.qq.com/s/OkL39kD-Bb6p1h0q2OgSWQ)
 
 ## 后端篇
 * [拿下阿里、头条、滴滴的offer后谈谈面试经验（上）](https://mp.weixin.qq.com/s/UNNPuH9aMO0Pw4rY9rhX3Q)
