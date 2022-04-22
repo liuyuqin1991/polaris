@@ -259,6 +259,9 @@ Github：
 
 <http://eslint.cn/>
 
+其他教程：
+* [搞懂 ESLint 和 Prettier](https://zhuanlan.zhihu.com/p/80574300)
+
 **15.typescript**
 
 TypeScript 是 JavaScript 的类型的超集，它可以编译成纯 JavaScript。编译出来的
