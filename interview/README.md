@@ -6,16 +6,20 @@
 
 ### 专栏
 
-- [掘金优秀作者-刘小夕](https://juejin.im/user/5c6256596fb9a049bd42c770/posts)
+- [掘金-刘小夕](https://juejin.im/user/5c6256596fb9a049bd42c770/posts)
 
   - 【Step-By-Step 高频面试题深入解析】系列
   - 【面试篇】系列
-  - [这儿有 20 道大厂面试题等你查收](https://juejin.im/post/5d124a12f265da1b9163a28d)
 
-- [掘金优秀作者-郭东东](https://juejin.im/user/57726622165abd005492ee87/posts)
+- [掘金-郭东东](https://juejin.im/user/57726622165abd005492ee87/posts)
 
   - 【中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂】系列
   - 【JavaScript 中的图片处理与合成】系列
+
+- [掘金-CoderBin](https://juejin.cn/user/1627704066072712/columns)
+
+  - 面试官系列
+  - 前端面试高频总结系列
 
 - [Github-前端面试每日 3+1<fe-interview>](https://github.com/haizlin/fe-interview)
 
@@ -46,14 +50,61 @@
 - [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(中)](https://juejin.cn/post/6844903801153945608)
 - [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(下)](https://juejin.cn/post/6844903830979608584)
 - [「2022」JavaScript 最新高频面试题指南（上）](https://juejin.cn/post/7164928163774988302)
+- [连八股文都不懂还指望在前端混下去么](https://juejin.cn/post/7016593221815910408#heading-0)
+- [2022 高频经典前端面试题（es6+webpack+http 网络+性能优化中篇，含答案）](https://blog.csdn.net/weixin_45822171/article/details/127532258)
 
 ### 主题
+
+- [手撸代码](./topic/code.md)
+
+- JS 基础
+
+  - 显隐类型强制转换
+    - [1](https://juejin.cn/post/7156779680756924452)
+  - 闭包
+    - [1](https://blog.csdn.net/weixin_56893328/article/details/124059319)
+  - 防抖与节流
+    - [1](https://juejin.cn/post/7155657224549826597)
+  - 浅拷贝与深拷贝
+  - 垃圾回收
+  - 回流与重绘
+
+- ES6
+
+- typescript
+
+  - [「2022」TypeScript 最新高频面试题指南](https://juejin.cn/post/7162011064819777567)
+
+- CSS
+
+  - [「2022」CSS 最新高频面试题指南](https://juejin.cn/post/7150840051453149197#heading-60)
+  - [如何使用 CSS 提高页面性能？](https://juejin.cn/post/7150448371059130404)
 
 - 跨域
 
   - [10 种跨域解决方案（附终极大招）](https://juejin.cn/post/6844904126246027278)
 
 - 网络安全
+
+  - [知道了 web 的攻击方式，还不快防起来？](https://juejin.cn/post/7152359275854200868)
+
+- react
+
+  - [React 并发渲染的前世今生](https://mp.weixin.qq.com/s/01sTK6w4BFUzoRc2NKCs1w)
+
+- nginx
+
+- webpack
+
+  - []()
+
+- 本地存储
+
+  - [浅谈 localStorage,sessionStorage,cookie,indexedDB](https://juejin.cn/post/7158272097897152525)
+
+- 性能优化
+
+- 前端工程化
 
 ####
 
