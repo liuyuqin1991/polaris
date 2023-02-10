@@ -651,3 +651,5 @@ liuyuqin1991<贡献者>博客资源
 - [我的 input 框不可能这么可爱](https://juejin.im/post/5d6d4e196fb9a06aed713cef)
 - [大公司里怎样开发和部署前端代码？](https://github.com/fouber/blog/issues/6)
 - [从输入 URL 到页面展示发生了什么？](https://juejin.cn/post/6931635435852529677)
+- [深入了解现代 Web 浏览器](https://juejin.cn/post/6993095345576083486)
+- [浏览器缓存、CacheStorage、Web Worker 与 Service Worker](https://juejin.cn/post/6844903560732229645)

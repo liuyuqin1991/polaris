@@ -59,12 +59,14 @@
 
 - JS 基础
 
+  -
+  - 事件循环
   - 显隐类型强制转换
-    - [1](https://juejin.cn/post/7156779680756924452)
+    - [你说说 JavaScript 中类型的转换机制](https://juejin.cn/post/7156779680756924452)
   - 闭包
-    - [1](https://blog.csdn.net/weixin_56893328/article/details/124059319)
+    - [闭包相关面试题(非原创,整合网上资源)](https://blog.csdn.net/weixin_56893328/article/details/124059319)
   - 防抖与节流
-    - [1](https://juejin.cn/post/7155657224549826597)
+    - [深入浅出防抖与节流函数](https://juejin.cn/post/7155657224549826597)
   - 浅拷贝与深拷贝
   - 垃圾回收
   - 回流与重绘
