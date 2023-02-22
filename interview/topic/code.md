@@ -71,3 +71,28 @@ function throttle(fn, interval) {
   return _throttle  // 步骤1
 }
 ```
+
+# 扁平化型数据转树型数据
+
+```
+const convertToTree = (flatData) => {
+  if (_.isArray(flatData) && flatData.length === 0) return [];
+  const recursive = (id) => {
+    const children = _.filter(flatData, (n) => n.pid === id);
+    if (children.length > 0) {
+      return children.map((n) => ({
+        ...n,
+        children: recursive(n.id),
+      }));
+    }
+  };
+  return recursive(0);
+};
+```
+
+# 生成 [ n, m ) 范围内的随机数（大于等于 n，小于 m）
+
+```
+// Math.random()会生成 [ 0, 1 ) 范围内的随机数
+Math.random()*(m-n)+n
+```

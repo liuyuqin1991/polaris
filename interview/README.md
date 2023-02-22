@@ -45,11 +45,11 @@
 - [你要的 React 面试知识点，都在这了](https://juejin.im/post/5cf0733de51d4510803ce34e)
 - [面试招聘：2 年招到 18 个前端教你怎么招人](https://juejin.im/post/5d6f54e9f265da03f66ddf65)
 - [看完跳槽少说涨 5 K，前端面试从准备到谈薪完全指南（近万字精华）](https://juejin.im/post/5dfef50751882512444027eb)
-- [2 年前端面试心路历程（字节跳动、YY、虎牙、BIGO）](https://mp.weixin.qq.com/s/OkL39kD-Bb6p1h0q2OgSWQ)
 - [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.cn/post/6844903776512393224)
 - [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(中)](https://juejin.cn/post/6844903801153945608)
 - [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(下)](https://juejin.cn/post/6844903830979608584)
 - [「2022」JavaScript 最新高频面试题指南（上）](https://juejin.cn/post/7164928163774988302)
+- [「2022」JavaScript 最新高频面试题指南（下）](https://juejin.cn/post/7166051817560735757)
 - [连八股文都不懂还指望在前端混下去么](https://juejin.cn/post/7016593221815910408#heading-0)
 - [2022 高频经典前端面试题（es6+webpack+http 网络+性能优化中篇，含答案）](https://blog.csdn.net/weixin_45822171/article/details/127532258)
 
@@ -59,8 +59,11 @@
 
 - JS 基础
 
-  -
+  - 原型与原型链
+    - [js 构造函数详解](https://blog.csdn.net/m0_52669454/article/details/125888166)
+    - [最详尽的 JS 原型与原型链终极详解，没有「可能是」。](https://www.jianshu.com/p/dee9f8b14771)
   - 事件循环
+    - [面试官：说说你对事件循环的理解](https://juejin.cn/post/7151215611215872036)
   - 显隐类型强制转换
     - [你说说 JavaScript 中类型的转换机制](https://juejin.cn/post/7156779680756924452)
   - 闭包
@@ -68,8 +71,11 @@
   - 防抖与节流
     - [深入浅出防抖与节流函数](https://juejin.cn/post/7155657224549826597)
   - 浅拷贝与深拷贝
+    - [深拷贝与浅拷贝的区别，实现深拷贝的几种方法](https://www.cnblogs.com/echolun/p/7889848.html)
   - 垃圾回收
   - 回流与重绘
+  - 常见算法
+    - [数组去重](https://blog.csdn.net/xingyu_qie/article/details/128606812)
 
 - ES6
 
@@ -89,6 +95,7 @@
 - 网络安全
 
   - [知道了 web 的攻击方式，还不快防起来？](https://juejin.cn/post/7152359275854200868)
+  - [如何防止 CSRF 攻击](https://juejin.cn/post/6844903689702866952)
 
 - react
 

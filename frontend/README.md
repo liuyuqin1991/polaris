@@ -503,7 +503,6 @@ liuyuqin1991<贡献者>博客资源
 - [Chrome 调试工具使用小技巧](http://mp.weixin.qq.com/s/Nyrav5fx_pqgSDEXNRb6Ug)
 - [关于 Google 发布的 JS 代码规范，你需要了解什么？](https://github.com/WhiteYin/translation/issues/10)
 - [passive 事件监听](https://futu.im/posts/2017-06-06-passive-event-listeners/)
-- [JavaScript：理解同步、异步和事件循环](https://manxisuo.github.io/2016/01/18/understanding-async-and-event-loop/)
 - [一次掌握 JavaScript ES5 到 ES8 数组内容](https://hufangyun.com/2017/array-learn/)
 - [JavaScript 数组方法对比](http://jinlong.github.io/2017/02/04/javascript-array-methods-mutating-vs-non-mutating/)
 - [深入 JavaScript 数组：进化与性能](http://www.wemlion.com/post/javascript-array-evolution-performance)
