@@ -64,6 +64,9 @@
     - [最详尽的 JS 原型与原型链终极详解，没有「可能是」。](https://www.jianshu.com/p/dee9f8b14771)
   - 事件循环
     - [面试官：说说你对事件循环的理解](https://juejin.cn/post/7151215611215872036)
+  - 事件委托
+    - [事件冒泡和捕获](https://blog.csdn.net/weixin_58155690/article/details/125830592)
+    - [JS 中的事件委托是什么？](https://zhuanlan.zhihu.com/p/542263905)
   - 显隐类型强制转换
     - [你说说 JavaScript 中类型的转换机制](https://juejin.cn/post/7156779680756924452)
   - 闭包
